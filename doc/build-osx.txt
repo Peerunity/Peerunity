@@ -13,9 +13,10 @@ Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 Modified for PPCoin by Jeff Larkin <jefflarkin@gmail.com>
+Modified for PeerUnity by Ben Rossi <ben@rossinet.com>
 
 
-See readme-qt.rst for instructions on building PPCoin QT, the
+See readme-qt.rst for instructions on building the PeerUnity community version of PPCoin QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -30,7 +31,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone git@github.com:ppcoin/ppcoin.git ppcoin
+git clone git@github.com/Peerunity/Peerunity.git peerunity
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -46,7 +47,7 @@ sudo port install qrencode
 
 4.  Now you should be able to build bitcoind:
 
-cd ppcoin/src
+cd peerunity/src
 make -f makefile.osx
 # To build 64-bit binaies:
 make -f makefile.osx RELEASE=true 64BIT=true
