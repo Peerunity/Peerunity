@@ -1,6 +1,8 @@
-Peercoin (PPCoin) 0.4.0 BETA
+PeerUnity PreAlpha
 
 Copyright (c) 2011-2014 Peercoin (PPCoin) Developers
+Copyright (c) 2014 PeerUnity Developers
+
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in

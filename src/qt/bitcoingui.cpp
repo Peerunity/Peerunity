@@ -422,7 +422,7 @@ void BitcoinGUI::createTrayIcon()
     trayIconMenu->addAction(quitAction);
 #endif
 
-    notificator = new Notificator(tr("ppcoin-qt"), trayIcon);
+    notificator = new Notificator(tr("peerunity-qt"), trayIcon);
 }
 
 #ifndef Q_WS_MAC

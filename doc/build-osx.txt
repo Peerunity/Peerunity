@@ -1,5 +1,7 @@
 Copyright (c) 2012-2013 PPCoin Developers
 Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2014 PeerUnity Developers
+
 Distributed under the MIT/X11 software license, see the accompanying file
 license.txt or http://www.opensource.org/licenses/mit-license.php.  This
 product includes software developed by the OpenSSL Project for use in the
@@ -53,8 +55,8 @@ make -f makefile.osx
 make -f makefile.osx RELEASE=true 64BIT=true
 
 Run:
-  ./ppcoind --help  # for a list of command-line options.
+  ./peerunityd --help  # for a list of command-line options.
 Run
-  ./ppcoind -daemon # to start the bitcoin daemon.
+  ./peerunityd -daemon # to start the bitcoin daemon.
 Run
-  ./ppcoind help # When the daemon is running, to get a list of RPC commands
+  ./peerunityd help # When the daemon is running, to get a list of RPC commands

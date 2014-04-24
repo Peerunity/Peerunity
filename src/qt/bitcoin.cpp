@@ -181,9 +181,9 @@ int main(int argc, char *argv[])
     app.setOrganizationName("PPCoin");
     app.setOrganizationDomain("ppcoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("PPCoin-Qt-testnet");
+        app.setApplicationName("peerunity-qt-testnet");
     else
-        app.setApplicationName("PPCoin-Qt");
+        app.setApplicationName("peerunity-qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
