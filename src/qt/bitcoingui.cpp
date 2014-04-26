@@ -234,7 +234,7 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/ppcoin"), tr("&About PeerUnity").arg(qApp->applicationName()), this);
+    aboutAction = new QAction(QIcon(":/icons/ppcoin"), tr("About PeerUnity"), this);
     aboutAction->setToolTip(tr("Show information about PPCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);

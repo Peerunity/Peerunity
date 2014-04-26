@@ -6,7 +6,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About PPCoin</source>
+        <source>About PeerUnity</source>
         <translation type="unfinished">About PeerUnity</translation>
     </message>
     <message>
