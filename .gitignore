@@ -1,6 +1,6 @@
 src/*.exe
 src/ppcoin
-src/ppcoind
+src/peerunityd
 src/test_ppcoin
 src/build.h
 .*.swp
@@ -14,7 +14,7 @@ src/build.h
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-ppcoin-qt
+peerunity-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

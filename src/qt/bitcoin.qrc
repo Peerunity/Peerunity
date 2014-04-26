@@ -40,6 +40,12 @@
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
         <file alias="filesave">res/icons/filesave.png</file>
+        <file>res/icons/LightBackground.png</file>
+        <file>LightBackground.svg</file>
+        <file>res/icons/horizontal_trans-scaled.png</file>
+        <file>res/icons/horizontal_trans-scaled-small.png</file>
+        <file>res/icons/horizontal_trans-scaled-small2.png</file>
+        <file>res/icons/icononly_trans-resized.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
