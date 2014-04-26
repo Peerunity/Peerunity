@@ -179,13 +179,13 @@ bool AppInit2(int argc, char* argv[])
         string strUsage = string() +
           _("PPCoin version") + " " + FormatFullVersion() + "\n\n" +
           _("Usage:") + "\t\t\t\t\t\t\t\t\t\t\n" +
-            "  ppcoind [options]                   \t  " + "\n" +
-            "  ppcoind [options] <command> [params]\t  " + _("Send command to -server or ppcoind") + "\n" +
-            "  ppcoind [options] help              \t\t  " + _("List commands") + "\n" +
-            "  ppcoind [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
+            "  peerunityd [options]                   \t  " + "\n" +
+            "  peerunityd [options] <command> [params]\t  " + _("Send command to -server or peerunityd") + "\n" +
+            "  peerunityd [options] help              \t\t  " + _("List commands") + "\n" +
+            "  peerunityd [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
           _("Options:") + "\n" +
             "  -conf=<file>     \t\t  " + _("Specify configuration file (default: ppcoin.conf)") + "\n" +
-            "  -pid=<file>      \t\t  " + _("Specify pid file (default: ppcoind.pid)") + "\n" +
+            "  -pid=<file>      \t\t  " + _("Specify pid file (default: peerunityd.pid)") + "\n" +
             "  -gen             \t\t  " + _("Generate coins") + "\n" +
             "  -gen=0           \t\t  " + _("Don't generate coins") + "\n" +
             "  -min             \t\t  " + _("Start minimized") + "\n" +

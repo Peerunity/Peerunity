@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About PPCoin</source>
-        <translation type="unfinished"></translation>
+        <source>About PeerUnity</source>
+        <translation type="unfinished">About PeerUnity</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
         <source>&lt;b&gt;PPCoin&lt;/b&gt; version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;||PeerUnity||&lt;/b&gt; Pre-Alpha version</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="91"/>
@@ -23,7 +23,13 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Copyright © 2014 PeerUnity Developers
+
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
     </message>
 </context>
 <context>
@@ -36,7 +42,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your PPCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">These are your PeerUnity addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -235,7 +241,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
         <source>PPCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PPCoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PeerUnity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PeerUnity from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -290,12 +296,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="70"/>
         <source>PPCoin Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PeerUnity Wallet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="243"/>
         <source>Show/Hide &amp;PPCoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show/Hide &amp;PeerUnity</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="499"/>
@@ -350,7 +356,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="205"/>
         <source>Send coins to a PPCoin address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Send coins to a PeerUnity address</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
@@ -380,7 +386,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="235"/>
         <source>Show information about PPCoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show information about PeerUnity</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
@@ -400,7 +406,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
         <source>Modify configuration options for PPCoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Modify configuration options for PeerUnity</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="501"/>
@@ -423,7 +429,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="244"/>
         <source>Show or hide the PPCoin window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show or hide the PeerUnity window</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
@@ -493,19 +499,19 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="383"/>
         <source>PPCoin client</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PeerUnity client</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="411"/>
-        <source>PPCoin-qt</source>
+        <source>peerunity-qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="475"/>
         <source>%n active connection(s) to PPCoin network</source>
         <translation>
-            <numerusform>%n active connection to PPCoin network</numerusform>
-            <numerusform>%n active connections to PPCoin network</numerusform>
+            <numerusform>%n active connection to PeerUnity network</numerusform>
+            <numerusform>%n active connections to PeerUnity network</numerusform>
         </translation>
     </message>
     <message>
@@ -693,7 +699,7 @@ Address: %4
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
         <source>The entered address &quot;%1&quot; is not a valid PPCoin address.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">The entered address &quot;%1&quot; is not a valid PeerUnity address.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -711,12 +717,12 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
         <source>&amp;Start PPCoin on window system startup</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Start PeerUnity on window system startup</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
         <source>Automatically start PPCoin after the computer is turned on</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Automatically start PeerUnity after the computer is turned on</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -736,7 +742,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
         <source>Automatically open the PPCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Automatically open the PeerUnity client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="179"/>
@@ -1198,7 +1204,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
         <source>Enter a PPCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enter a PeerUnity address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1656,7 +1662,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="7"/>
         <source>PPCoin version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PeerUnity version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
@@ -1665,7 +1671,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Send command to -server or ppcoind</source>
+        <source>Send command to -server or peerunityd</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1686,11 +1692,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
         <source>Specify configuration file (default: PPCoin.conf)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Specify configuration file (default: peerunity.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
+        <source>Specify pid file (default: peerunityd.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1872,7 +1878,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../bitcoinstrings.cpp" line="62"/>
         <source>
 SSL options: (see the PPCoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+SSL options: (see the PeerUnity Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
@@ -1907,12 +1914,12 @@ SSL options: (see the PPCoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="73"/>
         <source>Cannot obtain a lock on data directory %s.  PPCoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cannot obtain a lock on data directory %s.  PeerUnity is probably already running.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>PPCoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PeerUnity</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
@@ -1937,12 +1944,12 @@ SSL options: (see the PPCoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
         <source>Error loading wallet.dat: Wallet requires newer version of PPCoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error loading wallet.dat: Wallet requires newer version of PeerUnity</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
         <source>Wallet needed to be rewritten: restart PPCoin to complete</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Wallet needed to be rewritten: restart PeerUnity to complete</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="85"/>
@@ -2087,7 +2094,7 @@ SSL options: (see the PPCoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
         <source>Unable to bind to port %d on this computer.  PPCoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Unable to bind to port %d on this computer.  PeerUnity is probably already running.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="97"/>
@@ -2099,7 +2106,7 @@ SSL options: (see the PPCoin Wiki for SSL setup instructions)</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=PPCoinrpc
+rpcuser=PeerUnityrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2126,7 +2133,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="114"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong PPCoin will not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong PeerUnity will not work properly.</translation>
     </message>
 </context>
 </TS>

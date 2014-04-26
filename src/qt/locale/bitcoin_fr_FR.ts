@@ -535,8 +535,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="418"/>
-        <source>ppcoin-qt</source>
-        <translation>ppcoin-qt</translation>
+        <source>peerunity-qt</source>
+        <translation>peerunity-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="482"/>
@@ -1091,8 +1091,8 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Utilisation :</translation>
     </message>
     <message>
-        <source>Send command to -server or ppcoind</source>
-        <translation type="obsolete">Envoyer une commande à -server ou à ppcoind</translation>
+        <source>Send command to -server or peerunityd</source>
+        <translation type="obsolete">Envoyer une commande à -server ou à peerunityd</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1111,8 +1111,8 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Spécifier le fichier de configuration (par défaut : PPCoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation type="obsolete">Spécifier le fichier pid (par défaut : ppcoind.pid)</translation>
+        <source>Specify pid file (default: peerunityd.pid)</source>
+        <translation type="obsolete">Spécifier le fichier pid (par défaut : peerunityd.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -1516,8 +1516,8 @@ Options SSL : (cf. le wiki PPCoin pour les réglages SSL)</translation>
         <translation type="obsolete">[testnet]</translation>
     </message>
     <message>
-        <source>PPCoin-qt</source>
-        <translation type="obsolete">PPCoin-qt</translation>
+        <source>peerunity-qt</source>
+        <translation type="obsolete">peerunity-qt</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to PPCoin network</source>
@@ -2473,8 +2473,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or ppcoind</source>
-        <translation>Envoyer une commande à -server ou à ppcoind</translation>
+        <source>Send command to -server or peerunityd</source>
+        <translation>Envoyer une commande à -server ou à peerunityd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2498,8 +2498,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : ppcoind.pid)</translation>
+        <source>Specify pid file (default: peerunityd.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : peerunityd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>

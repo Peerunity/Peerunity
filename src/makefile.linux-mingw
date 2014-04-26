@@ -67,7 +67,7 @@ OBJS= \
     obj/noui.o \
     obj/kernel.o
 
-all: ppcoind.exe
+all: peerunityd.exe
 
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
@@ -77,7 +77,7 @@ DEFS += -DHAVE_BUILD_INFO
 obj/%.o: %.cpp $(HEADERS)
 	i586-mingw32msvc-g++ -c $(CFLAGS) -o $@ $<
 
-ppcoind.exe: $(OBJS:obj/%=obj/%)
+peerunityd.exe: $(OBJS:obj/%=obj/%)
 	i586-mingw32msvc-g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -91,7 +91,7 @@ test_bitcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 
 clean:
 	-rm -f obj/*.o
-	-rm -f ppcoind.exe
+	-rm -f peerunityd.exe
 	-rm -f obj-test/*.o
 	-rm -f test_bitcoin.exe
 	-rm -f src/build.h

@@ -1,4 +1,6 @@
 Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2014 PeerUnity Developers
+
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -81,12 +83,12 @@ Note: If you like to have UPnP support, you need to install net-libs/miniupnpc.
 Take the following steps to build (no UPnP support):
  cd ppcoin/src
  make -f makefile.unix USE_UPNP= BDB_INCLUDE_PATH='/usr/include/db4.8'
- strip ppcoind
+ strip peerunityd
 
 
 Notes
 -----
-The release is built with GCC and then "strip ppcoind" to strip the debug
+The release is built with GCC and then "strip peerunityd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 

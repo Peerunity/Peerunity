@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg3585"
+   sodipodi:docname="lightbg.svg"
+   inkscape:version="0.48.4 r9939"
+   x="0px"
+   y="0px"
+   width="990px"
+   height="765px"
+   viewBox="0 0 990 765"
+   enable-background="new 0 0 990 765"
+   xml:space="preserve"><metadata
+   id="metadata12"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs10"><radialGradient
+     r="246"
+     fy="835.40918"
+     fx="342.92563"
+     cy="835.40918"
+     cx="342.92563"
+     gradientTransform="matrix(2.509572,-0.03937461,0.02394767,1.5272847,-477.72606,-993.1349)"
+     gradientUnits="userSpaceOnUse"
+     id="radialGradient4045"
+     xlink:href="#linearGradient6496"
+     inkscape:collect="always" /><linearGradient
+     id="linearGradient6496"><stop
+       id="stop6498"
+       offset="0"
+       style="stop-color:#3c3c3c;stop-opacity:1;" /><stop
+       id="stop6500"
+       offset="1"
+       style="stop-color:#161616;stop-opacity:1;" /></linearGradient><radialGradient
+     r="246"
+     fy="835.40918"
+     fx="342.92563"
+     cy="835.40918"
+     cx="342.92563"
+     gradientTransform="matrix(2.509572,-0.03937461,0.02394767,1.5272847,-477.72506,-993.13439)"
+     gradientUnits="userSpaceOnUse"
+     id="radialGradient3005"
+     xlink:href="#rect6298_1_"
+     inkscape:collect="always" /></defs>
+<sodipodi:namedview
+   showgrid="false"
+   pagecolor="#ffffff"
+   inkscape:zoom="1"
+   inkscape:cy="480.55702"
+   id="base"
+   bordercolor="#666666"
+   inkscape:cx="158.42866"
+   borderopacity="1.0"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="54"
+   inkscape:window-height="745"
+   inkscape:window-width="1304"
+   inkscape:current-layer="svg3585"
+   inkscape:document-units="px"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:guide-bbox="true"
+   showguides="true">
+	</sodipodi:namedview>
+<radialGradient
+   id="rect6298_1_"
+   cx="259.2729"
+   cy="15.9313"
+   r="246"
+   gradientTransform="matrix(2.5096 -0.0394 -0.0239 -1.5273 -247.406 303.8105)"
+   gradientUnits="userSpaceOnUse">
+	<stop
+   offset="0"
+   style="stop-color:#FFFFFF"
+   id="stop5" />
+	<stop
+   offset="1"
+   style="stop-color:#B4C0C7"
+   id="stop7" />
+</radialGradient>
+<rect
+   style="fill:url(#radialGradient3005);fill-opacity:1;stroke:none"
+   id="rect6298-7"
+   width="938"
+   height="699.68701"
+   x="26.000999"
+   y="32.657001"
+   inkscape:export-filename="D:\nWorks\Dropbox\99\order\Lightning\14.peercoin\Logo\background\lightbg.png"
+   inkscape:export-xdpi="300.03198"
+   inkscape:export-ydpi="300.03198" />
+</svg>

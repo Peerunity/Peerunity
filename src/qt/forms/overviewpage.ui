@@ -36,13 +36,62 @@
         </property>
         <item row="2" column="0">
          <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font: 75 20pt &quot;Ubuntu&quot;;</string>
+          </property>
           <property name="text">
            <string>Balance:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
          <widget class="QLabel" name="labelBalance">
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>18</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 bold 18pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string notr="true">0 BTC</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Stake:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="labelStake">
+          <property name="text">
+           <string notr="true">0 BTC</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Unconfirmed:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="labelUnconfirmed">
           <property name="text">
            <string notr="true">0 BTC</string>
           </property>
@@ -62,39 +111,12 @@
           </property>
          </widget>
         </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>Unconfirmed:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="1">
-         <widget class="QLabel" name="labelUnconfirmed">
-          <property name="text">
-           <string notr="true">0 BTC</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_6">
-          <property name="text">
-           <string>Stake:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QLabel" name="labelStake">
-          <property name="text">
-           <string notr="true">0 BTC</string>
-          </property>
-         </widget>
-        </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_5">
           <property name="font">
            <font>
             <pointsize>11</pointsize>
+            <weight>75</weight>
             <bold>true</bold>
            </font>
           </property>

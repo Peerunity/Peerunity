@@ -490,8 +490,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>PPCoin-qt</source>
-        <translation>PPCoin-qt</translation>
+        <source>peerunity-qt</source>
+        <translation>peerunity-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
@@ -1644,8 +1644,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or ppcoind</source>
-        <translation>שלח פקודה ל -server או ppcoind</translation>
+        <source>Send command to -server or peerunityd</source>
+        <translation>שלח פקודה ל -server או peerunityd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1669,8 +1669,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: ppcoind.pid)</translation>
+        <source>Specify pid file (default: peerunityd.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: peerunityd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
