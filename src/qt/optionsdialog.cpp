@@ -169,8 +169,8 @@ MainOptionsPage::MainOptionsPage(QWidget *parent):
 {
     QVBoxLayout *layout = new QVBoxLayout();
 
-    bitcoin_at_startup = new QCheckBox(tr("&Start PPCoin on window system startup"));
-    bitcoin_at_startup->setToolTip(tr("Automatically start PPCoin after the computer is turned on"));
+    bitcoin_at_startup = new QCheckBox(tr("&Start PeerUnity on window system startup"));
+    bitcoin_at_startup->setToolTip(tr("Automatically start PeerUnity after the computer is turned on"));
     layout->addWidget(bitcoin_at_startup);
 
 #ifndef Q_WS_MAC
@@ -184,7 +184,7 @@ MainOptionsPage::MainOptionsPage(QWidget *parent):
 #endif
 
     map_port_upnp = new QCheckBox(tr("Map port using &UPnP"));
-    map_port_upnp->setToolTip(tr("Automatically open the PPCoin client port on the router. This only works when your router supports UPnP and it is enabled."));
+    map_port_upnp->setToolTip(tr("Automatically open the PeerUnity client port on the router. This only works when your router supports UPnP and it is enabled."));
     layout->addWidget(map_port_upnp);
 
     connect_socks4 = new QCheckBox(tr("&Connect through SOCKS4 proxy:"));
@@ -283,7 +283,7 @@ DisplayOptionsPage::DisplayOptionsPage(QWidget *parent):
     layout->addLayout(unit_hbox);
 
     display_addresses = new QCheckBox(tr("&Display addresses in transaction list"), this);
-    display_addresses->setToolTip(tr("Whether to show PPCoin addresses in the transaction list"));
+    display_addresses->setToolTip(tr("Whether to show PeerUnity addresses in the transaction list"));
     layout->addWidget(display_addresses);
 
     coin_control_features = new QCheckBox(tr("Display coin control features (experts only!)"), this);

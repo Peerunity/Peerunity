@@ -40,6 +40,8 @@
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
         <file alias="filesave">res/icons/filesave.png</file>
+        <file>res/icons/horizontal_trans-no-shadow.png</file>
+        <file alias="peerunity_icon">res/icons/icononly_trans-resized.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
