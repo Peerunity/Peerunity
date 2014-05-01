@@ -28,6 +28,8 @@
 #include <QClipboard>
 #include <QLabel>
 #include <QDateTimeEdit>
+#include <QUrl>
+#include <QDesktopServices>
 
 TransactionView::TransactionView(QWidget *parent) :
     QWidget(parent), model(0), transactionProxyModel(0),
@@ -127,6 +129,7 @@ TransactionView::TransactionView(QWidget *parent) :
     QAction *copyAmountAction = new QAction(tr("Copy amount"), this);
     QAction *editLabelAction = new QAction(tr("Edit label"), this);
     QAction *showDetailsAction = new QAction(tr("Show details..."), this);
+    QAction *showTransactionAction = new QAction(tr("View on blockr.io"), this);
 
     contextMenu = new QMenu();
     contextMenu->addAction(copyAddressAction);
@@ -134,6 +137,7 @@ TransactionView::TransactionView(QWidget *parent) :
     contextMenu->addAction(copyAmountAction);
     contextMenu->addAction(editLabelAction);
     contextMenu->addAction(showDetailsAction);
+    contextMenu->addAction(showTransactionAction);
 
     // Connect actions
     connect(dateWidget, SIGNAL(activated(int)), this, SLOT(chooseDate(int)));
@@ -149,6 +153,7 @@ TransactionView::TransactionView(QWidget *parent) :
     connect(copyAmountAction, SIGNAL(triggered()), this, SLOT(copyAmount()));
     connect(editLabelAction, SIGNAL(triggered()), this, SLOT(editLabel()));
     connect(showDetailsAction, SIGNAL(triggered()), this, SLOT(showDetails()));
+    connect(showTransactionAction, SIGNAL(triggered()), this, SLOT(showTransaction()));
 }
 
 void TransactionView::setModel(WalletModel *model)
@@ -369,6 +374,20 @@ void TransactionView::showDetails()
     {
         TransactionDescDialog dlg(selection.at(0));
         dlg.exec();
+    }
+}
+
+void TransactionView::showTransaction()
+{
+    if(!transactionView->selectionModel())
+        return;
+    QModelIndexList selection = transactionView->selectionModel()->selectedRows();
+    if(!selection.isEmpty())
+    {
+        // TODO: Prefix with "t" if blockr adds ppc testnet support
+        QString blockr = "http://ppc.blockr.io/tx/info/";
+        QString tx = selection.at(0).data(TransactionTableModel::TxHashRole).toString();
+        QDesktopServices::openUrl(QUrl(blockr + tx));
     }
 }
 

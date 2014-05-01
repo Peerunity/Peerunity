@@ -566,6 +566,8 @@ QVariant TransactionTableModel::data(const QModelIndex &index, int role) const
         return rec->credit + rec->debit;
     case TxIDRole:
         return QString::fromStdString(rec->getTxID());
+    case TxHashRole:
+        return QString::fromStdString(rec->getHash());
     case ConfirmedRole:
         // Return True if transaction counts for balance
         return rec->status.confirmed && !(rec->type == TransactionRecord::Generated &&
