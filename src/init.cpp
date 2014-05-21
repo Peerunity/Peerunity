@@ -245,7 +245,7 @@ bool AppInit2(int argc, char* argv[])
             "  -checklevel=<n>  \t\t  " + _("How thorough the block verification is (0-6, default: 1)") + "\n";
 
         strUsage += string() +
-            _("\nSSL options: (see the Bitcoin Wiki for SSL setup instructions)") + "\n" +
+            _("\nSSL options: (see the Peerunity Wiki for SSL setup instructions)") + "\n" +
             "  -rpcssl                                \t  " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n" +
             "  -rpcsslcertificatechainfile=<file.cert>\t  " + _("Server certificate file (default: server.cert)") + "\n" +
             "  -rpcsslprivatekeyfile=<file.pem>       \t  " + _("Server private key (default: server.pem)") + "\n" +

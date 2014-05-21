@@ -590,7 +590,7 @@ Value getnewaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewaddress [account]\n"
-            "Returns a new ppcoin address for receiving payments.  "
+            "Returns a new peercoin address for receiving payments.  "
             "If [account] is specified (recommended), it is added to the address book "
             "so payments received with the address will be credited to [account].");
 
@@ -657,7 +657,7 @@ Value getaccountaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "getaccountaddress <account>\n"
-            "Returns the current ppcoin address for receiving payments to this account.");
+            "Returns the current peercoin address for receiving payments to this account.");
 
     // Parse the account first so we don't generate a key if there's an error
     string strAccount = AccountFromValue(params[0]);
@@ -680,7 +680,7 @@ Value setaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(-5, "Invalid ppcoin address");
+        throw JSONRPCError(-5, "Invalid peercoin address");
 
 
     string strAccount;
@@ -710,7 +710,7 @@ Value getaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(-5, "Invalid ppcoin address");
+        throw JSONRPCError(-5, "Invalid peercoin address");
 
     string strAccount;
     map<CTxDestination, string>::iterator mi = pwalletMain->mapAddressBook.find(address.Get());
@@ -768,7 +768,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(-5, "Invalid ppcoin address");
+        throw JSONRPCError(-5, "Invalid peercoin address");
 
     // Amount
     int64 nAmount = AmountFromValue(params[1]);
@@ -1101,7 +1101,7 @@ Value sendfrom(const Array& params, bool fHelp)
     string strAccount = AccountFromValue(params[0]);
     CBitcoinAddress address(params[1].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(-5, "Invalid ppcoin address");
+        throw JSONRPCError(-5, "Invalid peercoin address");
     int64 nAmount = AmountFromValue(params[2]);
     if (nAmount < MIN_TXOUT_AMOUNT)
         throw JSONRPCError(-101, "Send amount too small");
@@ -1164,7 +1164,7 @@ Value sendmany(const Array& params, bool fHelp)
     {
         CBitcoinAddress address(s.name_);
         if (!address.IsValid())
-            throw JSONRPCError(-5, string("Invalid ppcoin address:")+s.name_);
+            throw JSONRPCError(-5, string("Invalid peercoin address:")+s.name_);
 
         if (setAddress.count(address))
             throw JSONRPCError(-8, string("Invalid parameter, duplicated address: ")+s.name_);
