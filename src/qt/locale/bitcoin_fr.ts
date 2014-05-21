@@ -237,7 +237,7 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PPCOINS AND SHARES&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS AND SHARES&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished">ATTENTION : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous perdrez &lt;b&gt;TOUS VOS PEERCOINS ET TOUTES VOS PART&lt;/b&gt;!
 Êtes-vous sûr(e) de vouloir chiffrer votre porte-monnaie ?</translation>
@@ -250,7 +250,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ppcoins or shares from being stolen by malware infecting your computer.</source>
+        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins or shares from being stolen by malware infecting your computer.</source>
         <translation>Peerunity va maintenant se fermer pour terminer le processus de chiffrement. Rappelez-vous que chiffrer votre porte-monnaie ne protège entièrement vos peercoins et parts contre le vol par un logiciel malveillant infectant votre ordinateur.</translation>
     </message>
     <message>

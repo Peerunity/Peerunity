@@ -237,7 +237,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PPCOINS AND SHARES&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS AND SHARES&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -249,7 +249,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ppcoins or shares from being stolen by malware infecting your computer.</source>
+        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins or shares from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
