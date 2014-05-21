@@ -118,6 +118,9 @@ public:
     /** Return the unique identifier for this transaction (part) */
     std::string getTxID();
 
+    /** Return the hash for this transaction */
+    std::string getHash();
+
     /** Update status from core wallet tx.
      */
     void updateStatus(const CWalletTx &wtx);

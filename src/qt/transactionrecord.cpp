@@ -242,8 +242,13 @@ bool TransactionRecord::statusUpdateNeeded()
     return status.cur_num_blocks != nBestHeight;
 }
 
-std::string TransactionRecord::getTxID()
+std::string TransactionRecord::getHash()
 {
-    return hash.ToString() + strprintf("-%03d", idx);
+    return hash.ToString();
 }
 
+// Reference: https://github.com/bitcoin/bitcoin/issues/3911
+std::string TransactionRecord::getTxID()
+{
+    return getHash() + strprintf("-%03d", idx);
+}
