@@ -117,13 +117,13 @@ int CWalletDB::LoadWallet(CWallet* pwallet)
     //// todo: shouldn't we catch exceptions and try to recover and continue?
     {
         LOCK(pwallet->cs_wallet);
-        int nMinVersion = 0;
-        if (Read((string)"minversion", nMinVersion))
-        {
-            if (nMinVersion > CLIENT_VERSION)
-                return DB_TOO_NEW;
-            pwallet->LoadMinVersion(nMinVersion);
-        }
+        // int nMinVersion = 0;
+        // if (Read((string)"minversion", nMinVersion))
+        // {
+        //     if (nMinVersion > CLIENT_VERSION)
+        //         return DB_TOO_NEW;
+        //     pwallet->LoadMinVersion(nMinVersion);
+        // }
 
         // Get cursor
         Dbc* pcursor = GetCursor();
