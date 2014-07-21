@@ -26,7 +26,7 @@
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
+        <source>Copyright © 2009-2014 Bitcoin Developers
 
 This is experimental software.
 
@@ -45,7 +45,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -362,6 +362,11 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished">Salir del programa</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="238"/>
+        <source>Show information about Peercoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>About &amp;Qt</source>
         <translation type="unfinished">Acerca de</translation>
@@ -479,11 +484,6 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
         <source>&amp;About Peerunity</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="238"/>
-        <source>Show information about PeerCoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -929,32 +929,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>DisplayOptionsPage</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="274"/>
+        <location filename="../optionsdialog.cpp" line="275"/>
         <source>&amp;Unit to show amounts in: </source>
         <translation>&amp;Unidad en la que mostrar cantitades: </translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="278"/>
+        <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
         <translation>Elige la subdivisión por defecto para mostrar cantidaded en la interfaz cuando se envien monedas</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="285"/>
+        <location filename="../optionsdialog.cpp" line="286"/>
         <source>&amp;Display addresses in transaction list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="286"/>
+        <location filename="../optionsdialog.cpp" line="287"/>
         <source>Whether to show Peerunity addresses in the transaction list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="289"/>
+        <location filename="../optionsdialog.cpp" line="290"/>
         <source>Display coin control features (experts only!)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="290"/>
+        <location filename="../optionsdialog.cpp" line="291"/>
         <source>Whether to show coin control features or not</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1013,7 +1013,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid bitcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1090,19 +1090,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Puerto del servidor proxy (ej. 1234)</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="233"/>
-        <source>Detach databases at shutdown</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="234"/>
-        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
+        <location filename="../optionsdialog.cpp" line="217"/>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
+        <source>Additional network &amp;fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="234"/>
+        <source>Detach databases at shutdown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="235"/>
+        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Pay transaction &amp;fee</source>
-        <translation>Comisión de &amp;transacciónes</translation>
+        <translation type="obsolete">Comisión de &amp;transacciónes</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
@@ -1115,9 +1124,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="217"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Comisión opcional por kB que ayuda a asegurar que sus transacciones son procesadas rápidamente. La mayoria de transacciones son de 1 KB. Se recomienda comisión de 0.01 </translation>
+        <translation type="obsolete">Comisión opcional por kB que ayuda a asegurar que sus transacciones son procesadas rápidamente. La mayoria de transacciones son de 1 KB. Se recomienda comisión de 0.01 </translation>
     </message>
 </context>
 <context>
@@ -2340,7 +2348,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="155"/>
+        <location filename="../walletmodel.cpp" line="162"/>
         <source>Sending...</source>
         <translation>Enviando...</translation>
     </message>

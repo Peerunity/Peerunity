@@ -26,6 +26,22 @@
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
+        <source>Copyright © 2009-2014 Bitcoin Developers
+
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished">版权归比特币开发者所有  © 2009-2013 PPCoin Developers
+
+这是一个实验性软件。
+
+Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard. {2009-2014 ?} {11 ?}</translation>
+    </message>
+    <message>
         <source>Copyright © 2009-2012 Bitcoin Developers
 
 This is experimental software.
@@ -33,7 +49,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>版权归比特币开发者所有  © 2009-2013 PPCoin Developers
+        <translation type="obsolete">版权归比特币开发者所有  © 2009-2013 PPCoin Developers
 
 这是一个实验性软件。
 
@@ -50,9 +66,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>地址薄</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这些是你接受支付的Peercoin地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
+        <translation type="obsolete">这些是你接受支付的Peercoin地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="20"/>
+        <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -369,6 +389,11 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>退出程序</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="238"/>
+        <source>Show information about Peercoin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>About &amp;Qt</source>
         <translation>关于 &amp;Qt</translation>
@@ -489,9 +514,8 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>关于Peerunity(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="238"/>
         <source>Show information about PeerCoin</source>
-        <translation>显示Peercoin的相关信息</translation>
+        <translation type="obsolete">显示Peercoin的相关信息</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="244"/>
@@ -945,32 +969,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>DisplayOptionsPage</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="274"/>
+        <location filename="../optionsdialog.cpp" line="275"/>
         <source>&amp;Unit to show amounts in: </source>
         <translation>金额显示单位（&amp;U）：</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="278"/>
+        <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
         <translation>选择显示及发送币时使用的最小单位</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="285"/>
+        <location filename="../optionsdialog.cpp" line="286"/>
         <source>&amp;Display addresses in transaction list</source>
         <translation>在交易清单中显示地址(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="286"/>
+        <location filename="../optionsdialog.cpp" line="287"/>
         <source>Whether to show Peerunity addresses in the transaction list</source>
         <translation>是否需要在交易清单中显示币地址</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="289"/>
+        <location filename="../optionsdialog.cpp" line="290"/>
         <source>Display coin control features (experts only!)</source>
         <translation>显示交易源地址控制功能（只适合行家！）</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="290"/>
+        <location filename="../optionsdialog.cpp" line="291"/>
         <source>Whether to show coin control features or not</source>
         <translation>是否显示交易源地址控制功能</translation>
     </message>
@@ -1029,8 +1053,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
+        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The entered address &quot;%1&quot; is not a valid bitcoin address.</source>
-        <translation>您输入的“%1”不是有效的比特币地址。</translation>
+        <translation type="obsolete">您输入的“%1”不是有效的比特币地址。</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1106,19 +1134,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>代理端口 (比如 1234)</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="233"/>
+        <location filename="../optionsdialog.cpp" line="217"/>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <source>Additional network &amp;fee:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="234"/>
         <source>Detach databases at shutdown</source>
         <translation>关闭时断开数据库</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="234"/>
+        <location filename="../optionsdialog.cpp" line="235"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
         <translation>关闭时断开块和地址数据库。这使它们能被移动到另外目录，但减慢关闭速度。钱包总是断开的。</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="223"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>支付交易 &amp;费用</translation>
+        <translation type="obsolete">支付交易 &amp;费用</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
@@ -1131,9 +1168,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>计算机启动后自动开启Peerunity客户端</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="217"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>建议支付交易费用，有助于您的交易得到尽快处理.  绝大多数交易的字节数为 1 kB. 建议支付0.01个比特币.</translation>
+        <translation type="obsolete">建议支付交易费用，有助于您的交易得到尽快处理.  绝大多数交易的字节数为 1 kB. 建议支付0.01个比特币.</translation>
     </message>
 </context>
 <context>
@@ -2354,7 +2390,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="155"/>
+        <location filename="../walletmodel.cpp" line="162"/>
         <source>Sending...</source>
         <translation>发送中...</translation>
     </message>
