@@ -22,7 +22,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
         <source>Copyright © 2011-2014 PPCoin Developers</source>
-        <translation>Copyright © 2011-2014 Développeurs de Peercoin</translation>
+        <translation>Copyright © 2011-2014 Développeurs de PPCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -33,13 +33,13 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished">Copyright © 2009-2012 Développeurs de Bitcoin
+        <translation>Copyright © 2009-2014 Développeurs de Bitcoin
 
 Ce logiciel est en phase expérimentale.
 
 Distribué sous licence MIT/X11, voir le fichier license.txt ou http://www.opensource.org/licenses/mit-license.php.
 
-Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisation dans la boite à outils OpenSSL (http://www.openssl.org/), un logiciel cryptographique écrit par Eric Young (eay@cryptsoft.com) et un logiciel UPnP écrit par Thomas Bernard. {2009-2014 ?} {11 ?}</translation>
+Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisation dans la boite à outils OpenSSL (http://www.openssl.org/), un logiciel cryptographique écrit par Eric Young (eay@cryptsoft.com) et un logiciel UPnP écrit par Thomas Bernard.</translation>
     </message>
 </context>
 <context>
@@ -52,7 +52,7 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voici vos adresses Peercoin pour recevoir des paiements.  Vous pouvez en donner une différente à chaque personne pour savoir qui vous paye.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,12 +259,13 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
         <location filename="../askpassphrasedialog.cpp" line="102"/>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"></translation>
+        <translation>ATTENTION : Si vous chiffrez votre porte-monnaie et perdez la phrase de passe, vous perdrez &lt;b&gt;TOUS VOS PEERCOINS&lt;/b&gt;!
+Êtes-vous sûr(e) de vouloir chiffrer votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
         <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Peercoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peerunity va maintenant se fermer pour terminer le processus de chiffrement. Rappelez-vous que chiffrer votre porte-monnaie ne protège pas complètement vos peercoins du vol par un logiciel malveillant infectant votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="118"/>
@@ -370,7 +371,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="238"/>
         <source>Show information about Peercoin</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer les informations sur Peercoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
@@ -1035,7 +1036,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
         <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;adresse &quot;%1&quot; entrée n&apos;est pas une adresse Peercoin valide.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1113,12 +1114,12 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
         <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Frais de réseau obligatoires par ko transféré.La plupart des transactions utilisent 1 ko et sont soumises à 0.01 PPC de frais. Note : la taille du transfert peut augmenter en fonction du nombre d&apos;entrées de transaction requises pour financer le paiement.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
         <source>Additional network &amp;fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Frais de réseau additionnels :</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="234"/>
@@ -1621,7 +1622,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
         <source>Enter a Peercoin address</source>
-        <translation type="unfinished">Entrez une adresse Peercoin</translation>
+        <translation>Entrez une adresse Peercoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="192"/>
@@ -2024,7 +2025,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
         <source>&lt;b&gt;Retained amount:&lt;/b&gt; %1 until %2 more blocks&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Montant retenu :&lt;/b&gt; %1 pendant encore %2 blocs&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
