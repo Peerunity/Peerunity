@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fa">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE TS><TS language="fa" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -41,7 +39,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="14"/>
         <source>Address Book</source>
-        <translation>دفتر آدرس</translation>
+        <translation type="finished">دفتر آدرس</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
@@ -51,92 +49,92 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
         <source>Double-click to edit address or label</source>
-        <translation>برای ویرایش آدرس یا بر چسب دو بار کلیک کنید</translation>
+        <translation type="finished">برای ویرایش آدرس یا بر چسب دو بار کلیک کنید</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="57"/>
         <source>Create a new address</source>
-        <translation>آدرس نو ایجاد کنید</translation>
+        <translation type="finished">آدرس نو ایجاد کنید</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="60"/>
         <source>&amp;New Address...</source>
-        <translation>آدرس نو...</translation>
+        <translation type="finished">آدرس نو...</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="71"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>آدرس انتخاب شده در سیستم تخته رسم گیره دار کپی کنید</translation>
+        <translation type="finished">آدرس انتخاب شده در سیستم تخته رسم گیره دار کپی کنید</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="74"/>
         <source>&amp;Copy to Clipboard</source>
-        <translation>کپی در تخته رسم گیره دار</translation>
+        <translation type="finished">کپی در تخته رسم گیره دار</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="85"/>
         <source>Show &amp;QR Code</source>
-        <translation>نمایش &amp;کد QR</translation>
+        <translation type="finished">نمایش &amp;کد QR</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="96"/>
         <source>Sign a message to prove you own this address</source>
-        <translation>یک پیام را امضا کنید تا ثابت کنید صاحب این نشانی هستید</translation>
+        <translation type="finished">یک پیام را امضا کنید تا ثابت کنید صاحب این نشانی هستید</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="99"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;امضای پیام</translation>
+        <translation type="finished">&amp;امضای پیام</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="110"/>
         <source>Delete the currently selected address from the list. Only sending addresses can be deleted.</source>
-        <translation>آدرس انتخاب شده از لیست حذف کنید. فقط آدرسهای ارسال شده می شود حفذ کرد</translation>
+        <translation type="finished">آدرس انتخاب شده از لیست حذف کنید. فقط آدرسهای ارسال شده می شود حفذ کرد</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="113"/>
         <source>&amp;Delete</source>
-        <translation>آدرس نو</translation>
+        <translation type="finished">آدرس نو</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
         <source>Copy address</source>
-        <translation>کپی آدرس </translation>
+        <translation type="finished">کپی آدرس </translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="66"/>
         <source>Copy label</source>
-        <translation>کپی بر چسب</translation>
+        <translation type="finished">کپی بر چسب</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="67"/>
         <source>Edit</source>
-        <translation>ویرایش</translation>
+        <translation type="finished">ویرایش</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="68"/>
         <source>Delete</source>
-        <translation>حذف</translation>
+        <translation type="finished">حذف</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="273"/>
         <source>Export Address Book Data</source>
-        <translation>آدرس انتخاب شده در سیستم تخته رسم گیره دار کپی کنید</translation>
+        <translation type="finished">آدرس انتخاب شده در سیستم تخته رسم گیره دار کپی کنید</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="274"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma فایل جدا </translation>
+        <translation type="finished">Comma فایل جدا </translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="287"/>
         <source>Error exporting</source>
-        <translation>خطای صادرت</translation>
+        <translation type="finished">خطای صادرت</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="287"/>
         <source>Could not write to file %1.</source>
-        <translation>تا فایل %1 نمی شود نوشت</translation>
+        <translation type="finished">تا فایل %1 نمی شود نوشت</translation>
     </message>
 </context>
 <context>
@@ -144,17 +142,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="79"/>
         <source>Label</source>
-        <translation>ر چسب</translation>
+        <translation type="finished">ر چسب</translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="79"/>
         <source>Address</source>
-        <translation>ایل جدا </translation>
+        <translation type="finished">ایل جدا </translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="115"/>
         <source>(no label)</source>
-        <translation>خطای صادرت</translation>
+        <translation type="finished">خطای صادرت</translation>
     </message>
 </context>
 <context>
@@ -162,85 +160,85 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Dialog</source>
-        <translation>تگفتگو</translation>
+        <translation type="finished">تگفتگو</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="94"/>
         <source>TextLabel</source>
-        <translation>بر چسب</translation>
+        <translation type="finished">بر چسب</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
-        <translation>وارد عبارت عبور</translation>
+        <translation type="finished">وارد عبارت عبور</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
-        <translation>عبارت عبور نو</translation>
+        <translation type="finished">عبارت عبور نو</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
-        <translation>تکرار عبارت عبور نو</translation>
+        <translation type="finished">تکرار عبارت عبور نو</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="34"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>وارد کنید..&amp;lt;br/&amp;gt عبارت عبور نو در پنجره   
+        <translation type="finished">وارد کنید..&amp;lt;br/&amp;gt عبارت عبور نو در پنجره   
  10 یا بیشتر کاراکتورهای تصادفی استفاده کنید &amp;lt;b&amp;gt لطفا عبارت عبور</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="35"/>
         <source>Encrypt wallet</source>
-        <translation>رمز بندی پنجره</translation>
+        <translation type="finished">رمز بندی پنجره</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="38"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>این عملیت نیاز  عبارت عبور پنجره شما دارد برای رمز گشایی آن</translation>
+        <translation type="finished">این عملیت نیاز  عبارت عبور پنجره شما دارد برای رمز گشایی آن</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="43"/>
         <source>Unlock wallet</source>
-        <translation>تکرار عبارت عبور نو</translation>
+        <translation type="finished">تکرار عبارت عبور نو</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="46"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>این عملیت نیاز عبارت عبور شما دارد برای رمز بندی آن</translation>
+        <translation type="finished">این عملیت نیاز عبارت عبور شما دارد برای رمز بندی آن</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="51"/>
         <source>Decrypt wallet</source>
-        <translation>رمز بندی پنجره</translation>
+        <translation type="finished">رمز بندی پنجره</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Change passphrase</source>
-        <translation>تغییر عبارت عبور</translation>
+        <translation type="finished">تغییر عبارت عبور</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="55"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>عبارت عبور نو و قدیم در پنجره وارد کنید</translation>
+        <translation type="finished">عبارت عبور نو و قدیم در پنجره وارد کنید</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
         <source>Confirm wallet encryption</source>
-        <translation>تایید رمز گذاری</translation>
+        <translation type="finished">تایید رمز گذاری</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
         <location filename="../askpassphrasedialog.cpp" line="160"/>
         <source>Wallet encrypted</source>
-        <translation>تغییر عبارت عبور</translation>
+        <translation type="finished">تغییر عبارت عبور</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
         <location filename="../askpassphrasedialog.cpp" line="232"/>
         <source>Warning: The Caps Lock key is on.</source>
-        <translation>هشدار: کلید حروف بزرگ روشن است.</translation>
+        <translation type="finished">هشدار: کلید حروف بزرگ روشن است.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
@@ -248,7 +246,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../askpassphrasedialog.cpp" line="166"/>
         <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>Wallet encryption failed</source>
-        <translation>عبارت عبور نو و قدیم در پنجره وارد کنید</translation>
+        <translation type="finished">عبارت عبور نو و قدیم در پنجره وارد کنید</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
@@ -264,35 +262,35 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="118"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>تنا موفق رمز بندی پنجره ناشی از خطای داخل شد. پنجره شما مرز بندی نشده است</translation>
+        <translation type="finished">تنا موفق رمز بندی پنجره ناشی از خطای داخل شد. پنجره شما مرز بندی نشده است</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="125"/>
         <location filename="../askpassphrasedialog.cpp" line="173"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>عبارت عبور عرضه تطابق نشد</translation>
+        <translation type="finished">عبارت عبور عرضه تطابق نشد</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="136"/>
         <source>Wallet unlock failed</source>
-        <translation>نجره رمز گذار شد</translation>
+        <translation type="finished">نجره رمز گذار شد</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="137"/>
         <location filename="../askpassphrasedialog.cpp" line="148"/>
         <location filename="../askpassphrasedialog.cpp" line="167"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>اموفق رمز بندی پنجر</translation>
+        <translation type="finished">اموفق رمز بندی پنجر</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="147"/>
         <source>Wallet decryption failed</source>
-        <translation>ناموفق رمز بندی پنجره</translation>
+        <translation type="finished">ناموفق رمز بندی پنجره</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="161"/>
         <source>Wallet passphrase was succesfully changed.</source>
-        <translation>عبارت عبور با موفقیت تغییر شد</translation>
+        <translation type="finished">عبارت عبور با موفقیت تغییر شد</translation>
     </message>
 </context>
 <context>
@@ -300,47 +298,47 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="183"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished">بررسی اجمالی</translation>
+        <translation type="finished">بررسی اجمالی</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="184"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">نمای کلی پنجره نشان بده</translation>
+        <translation type="finished">نمای کلی پنجره نشان بده</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="189"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;amp;معاملات</translation>
+        <translation type="finished">&amp;amp;معاملات</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="190"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished">نمایش تاریخ معاملات</translation>
+        <translation type="finished">نمایش تاریخ معاملات</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="195"/>
         <source>&amp;Address Book</source>
-        <translation type="unfinished">دفتر آدرس</translation>
+        <translation type="finished">دفتر آدرس</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="196"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished">ویرایش لیست آدرسها و بر چسب های ذخیره ای</translation>
+        <translation type="finished">ویرایش لیست آدرسها و بر چسب های ذخیره ای</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
         <source>&amp;Receive coins</source>
-        <translation type="unfinished">در یافت سکه</translation>
+        <translation type="finished">در یافت سکه</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="202"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished">نمایش لیست آدرس ها برای در یافت پر داخت ها</translation>
+        <translation type="finished">نمایش لیست آدرس ها برای در یافت پر داخت ها</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="207"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">رسال سکه ها</translation>
+        <translation type="finished">رسال سکه ها</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="213"/>
@@ -350,17 +348,17 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="214"/>
         <source>Prove you control an address</source>
-        <translation type="unfinished">اثبات کنید که روی یک نشانی کنترل دارید</translation>
+        <translation type="finished">اثبات کنید که روی یک نشانی کنترل دارید</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished">خروج</translation>
+        <translation type="finished">خروج</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="234"/>
         <source>Quit application</source>
-        <translation type="unfinished">خروج از برنامه </translation>
+        <translation type="finished">خروج از برنامه </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="238"/>
@@ -370,22 +368,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">درباره &amp;Qt</translation>
+        <translation type="finished">درباره &amp;Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished">نمایش اطلاعات درباره Qt</translation>
+        <translation type="finished">نمایش اطلاعات درباره Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="243"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished">تنظیمات...</translation>
+        <translation type="finished">تنظیمات...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
         <source>&amp;Export...</source>
-        <translation type="unfinished">&amp;;صادرات</translation>
+        <translation type="finished">&amp;;صادرات</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
@@ -395,12 +393,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="250"/>
         <source>&amp;Encrypt Wallet</source>
-        <translation type="unfinished">&amp;رمز بندی پنجره</translation>
+        <translation type="finished">&amp;رمز بندی پنجره</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
         <source>Encrypt or decrypt wallet</source>
-        <translation type="unfinished">رمز بندی یا رمز گشایی پنجره</translation>
+        <translation type="finished">رمز بندی یا رمز گشایی پنجره</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
@@ -425,12 +423,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="258"/>
         <source>&amp;Change Passphrase</source>
-        <translation type="unfinished">تغییر عبارت عبور</translation>
+        <translation type="finished">تغییر عبارت عبور</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="259"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">عبارت عبور رمز گشایی پنجره تغییر کنید</translation>
+        <translation type="finished">عبارت عبور رمز گشایی پنجره تغییر کنید</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
@@ -445,32 +443,32 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="285"/>
         <source>&amp;File</source>
-        <translation type="unfinished">فایل</translation>
+        <translation type="finished">فایل</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="294"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation type="finished">تنظیمات</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="301"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">کمک</translation>
+        <translation type="finished">کمک</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="310"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">نوار ابزار زبانه ها</translation>
+        <translation type="finished">نوار ابزار زبانه ها</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="321"/>
         <source>Actions toolbar</source>
-        <translation type="unfinished">نوار ابزار عملیت</translation>
+        <translation type="finished">نوار ابزار عملیت</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
         <source>[testnet]</source>
-        <translation type="unfinished">آزمایش شبکه</translation>
+        <translation type="finished">آزمایش شبکه</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="75"/>
@@ -516,19 +514,21 @@ Are you sure you wish to encrypt your wallet?</source>
         <location filename="../bitcoingui.cpp" line="489"/>
         <source>%n active connection(s) to Peercoin network</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="513"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">همگام سازی با شبکه ...</translation>
+        <translation type="finished">همگام سازی با شبکه ...</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="515"/>
         <source>~%n block(s) remaining</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform>~%n block remaining</numerusform>
+            <numerusform>~%n blocks remaining</numerusform>
         </translation>
     </message>
     <message>
@@ -539,13 +539,14 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="538"/>
         <source>Downloaded %1 blocks of transaction history.</source>
-        <translation type="unfinished">دانلود  بلوکهای معملات %1</translation>
+        <translation type="finished">دانلود  بلوکهای معملات %1</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="553"/>
         <source>%n second(s) ago</source>
         <translation type="unfinished">
             <numerusform>%n بعد از چند دقیقه</numerusform>
+            <numerusform>%n seconds ago</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -553,6 +554,7 @@ Are you sure you wish to encrypt your wallet?</source>
         <source>%n minute(s) ago</source>
         <translation type="unfinished">
             <numerusform>%n بعد از چند دقیقه </numerusform>
+            <numerusform>%n minutes ago</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -560,6 +562,7 @@ Are you sure you wish to encrypt your wallet?</source>
         <source>%n hour(s) ago</source>
         <translation type="unfinished">
             <numerusform>%n بعد از چند دقیقه </numerusform>
+            <numerusform>%n hours ago</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -567,42 +570,43 @@ Are you sure you wish to encrypt your wallet?</source>
         <source>%n day(s) ago</source>
         <translation type="unfinished">
             <numerusform>%n بعد از چند روزز </numerusform>
+            <numerusform>%n days ago</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="571"/>
         <source>Up to date</source>
-        <translation type="unfinished">تا تاریخ</translation>
+        <translation type="finished">تا تاریخ</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="576"/>
         <source>Catching up...</source>
-        <translation type="unfinished">ابتلا به بالا</translation>
+        <translation type="finished">ابتلا به بالا</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="584"/>
         <source>Last received block was generated %1.</source>
-        <translation type="unfinished">خرین بلوک در یافت شده  تولید شده بود %1 </translation>
+        <translation type="finished">خرین بلوک در یافت شده  تولید شده بود %1 </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="640"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation type="unfinished">این معامله از اندازه محدوده بیشتر است. شما می توانید آد را با دستمزد 1% بفرستید که شامل گره معامله شما می باشد و به شبکه های اینترنتی کمک خواهد کردو آیا شما می خواهید این پول پر داخت%1</translation>
+        <translation type="finished">این معامله از اندازه محدوده بیشتر است. شما می توانید آد را با دستمزد 1% بفرستید که شامل گره معامله شما می باشد و به شبکه های اینترنتی کمک خواهد کردو آیا شما می خواهید این پول پر داخت%1</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="645"/>
         <source>Sending...</source>
-        <translation type="unfinished">ارسال...</translation>
+        <translation type="finished">ارسال...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="672"/>
         <source>Sent transaction</source>
-        <translation type="unfinished">معامله ارسال شده</translation>
+        <translation type="finished">معامله ارسال شده</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="673"/>
         <source>Incoming transaction</source>
-        <translation type="unfinished">معامله در یافت شده</translation>
+        <translation type="finished">معامله در یافت شده</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="674"/>
@@ -611,7 +615,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished">تاریخ %1
+        <translation type="finished">تاریخ %1
 مبلغ%2
 نوع %3
 آدرس %4</translation>
@@ -624,12 +628,12 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="795"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">زمایش شبکهه</translation>
+        <translation type="finished">زمایش شبکهه</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="805"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">زمایش شبکه</translation>
+        <translation type="finished">زمایش شبکه</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="862"/>
@@ -673,7 +677,7 @@ Address: %4
         <location filename="../forms/coincontroldialog.ui" line="64"/>
         <location filename="../forms/coincontroldialog.ui" line="96"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="77"/>
@@ -683,7 +687,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="125"/>
         <source>Amount:</source>
-        <translation type="unfinished">مقدار:</translation>
+        <translation type="finished">مقدار:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="144"/>
@@ -691,7 +695,7 @@ Address: %4
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation type="unfinished">123.456 بتس {0.00 ?}</translation>
+        <translation type="finished">123.456 بتس {0.00 ?}</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -742,17 +746,17 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="477"/>
         <source>Amount</source>
-        <translation type="unfinished">مبلغ</translation>
+        <translation type="finished">مبلغ</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="487"/>
         <source>Address</source>
-        <translation type="unfinished">ایل جدا </translation>
+        <translation type="finished">ایل جدا </translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="492"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="finished">تاریخ</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="497"/>
@@ -762,7 +766,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="500"/>
         <source>Confirmed</source>
-        <translation type="unfinished">تایید شده</translation>
+        <translation type="finished">تایید شده</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="505"/>
@@ -772,18 +776,18 @@ Address: %4
     <message>
         <location filename="../coincontroldialog.cpp" line="36"/>
         <source>Copy address</source>
-        <translation type="unfinished">کپی آدرس </translation>
+        <translation type="finished">کپی آدرس </translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="37"/>
         <source>Copy label</source>
-        <translation type="unfinished">کپی بر چسب</translation>
+        <translation type="finished">کپی بر چسب</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="38"/>
         <location filename="../coincontroldialog.cpp" line="64"/>
         <source>Copy amount</source>
-        <translation type="unfinished">روگرفت مقدار</translation>
+        <translation type="finished">روگرفت مقدار</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="39"/>
@@ -908,7 +912,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../coincontroldialog.cpp" line="621"/>
         <location filename="../coincontroldialog.cpp" line="687"/>
         <source>(no label)</source>
-        <translation type="unfinished">خطای صادرت</translation>
+        <translation type="finished">خطای صادرت</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="678"/>
@@ -926,12 +930,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="275"/>
         <source>&amp;Unit to show amounts in: </source>
-        <translation>&amp;;واحد نمایش مبلغ</translation>
+        <translation type="finished">&amp;;واحد نمایش مبلغ</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>زیر بخش پیش فرض در واسط انتخاب کنید و سکه ها ارسال کنید</translation>
+        <translation type="finished">زیر بخش پیش فرض در واسط انتخاب کنید و سکه ها ارسال کنید</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
@@ -959,52 +963,52 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
-        <translation>اصلاح آدرس</translation>
+        <translation type="finished">اصلاح آدرس</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
-        <translation>بر چسب</translation>
+        <translation type="finished">بر چسب</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address book entry</source>
-        <translation>بر چسب با دفتر آدرس ورود مرتبط است</translation>
+        <translation type="finished">بر چسب با دفتر آدرس ورود مرتبط است</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
-        <translation>آدرس</translation>
+        <translation type="finished">آدرس</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="52"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>آدرس با دفتر آدرس ورودی مرتبط است. این فقط در مورد آدرسهای ارسال شده است</translation>
+        <translation type="finished">آدرس با دفتر آدرس ورودی مرتبط است. این فقط در مورد آدرسهای ارسال شده است</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="20"/>
         <source>New receiving address</source>
-        <translation>آدرس در یافت نو</translation>
+        <translation type="finished">آدرس در یافت نو</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="24"/>
         <source>New sending address</source>
-        <translation>آدرس ارسال نو</translation>
+        <translation type="finished">آدرس ارسال نو</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="27"/>
         <source>Edit receiving address</source>
-        <translation>اصلاح آدرس در یافت</translation>
+        <translation type="finished">اصلاح آدرس در یافت</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="31"/>
         <source>Edit sending address</source>
-        <translation>اصلاح آدرس ارسال</translation>
+        <translation type="finished">اصلاح آدرس ارسال</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="91"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>%1آدرس وارد شده دیگر در دفتر آدرس است</translation>
+        <translation type="finished">%1آدرس وارد شده دیگر در دفتر آدرس است</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
@@ -1014,12 +1018,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
         <source>Could not unlock wallet.</source>
-        <translation>رمز گشایی پنجره امکان پذیر نیست</translation>
+        <translation type="finished">رمز گشایی پنجره امکان پذیر نیست</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="106"/>
         <source>New key generation failed.</source>
-        <translation>کلید نسل جدید ناموفق است</translation>
+        <translation type="finished">کلید نسل جدید ناموفق است</translation>
     </message>
 </context>
 <context>
@@ -1027,27 +1031,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="177"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>حد اقل رساندن در جای نوار ابزار ها</translation>
+        <translation type="finished">حد اقل رساندن در جای نوار ابزار ها</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="178"/>
         <source>Show only a tray icon after minimizing the window</source>
-        <translation>نمایش فقط نماد سینی بعد از حد اقل رساندن پنجره</translation>
+        <translation type="finished">نمایش فقط نماد سینی بعد از حد اقل رساندن پنجره</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="186"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>درگاه با استفاده از</translation>
+        <translation type="finished">درگاه با استفاده از</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
         <source>M&amp;inimize on close</source>
-        <translation>حد اقل رساندن در نزدیک</translation>
+        <translation type="finished">حد اقل رساندن در نزدیک</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="182"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>حد اقل رساندن در جای خروج بر نامه وقتیکه پنجره بسته است.وقتیکه این فعال است برنامه خاموش می شود بعد از انتخاب دستور خاموش در منیو</translation>
+        <translation type="finished">حد اقل رساندن در جای خروج بر نامه وقتیکه پنجره بسته است.وقتیکه این فعال است برنامه خاموش می شود بعد از انتخاب دستور خاموش در منیو</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
@@ -1057,32 +1061,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
         <source>&amp;Connect through SOCKS4 proxy:</source>
-        <translation>ارتباط با توسط</translation>
+        <translation type="finished">ارتباط با توسط</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>وسل به شبکه بیتکویین با توسط</translation>
+        <translation type="finished">وسل به شبکه بیتکویین با توسط</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
         <source>Proxy &amp;IP: </source>
-        <translation>درس پروکسی</translation>
+        <translation type="finished">درس پروکسی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="202"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>درس پروکسی</translation>
+        <translation type="finished">درس پروکسی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="205"/>
         <source>&amp;Port: </source>
-        <translation>پورت پروکسی</translation>
+        <translation type="finished">پورت پروکسی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="211"/>
         <source>Port of the proxy (e.g. 1234)</source>
-        <translation>ورت پروکسی</translation>
+        <translation type="finished">ورت پروکسی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
@@ -1120,17 +1124,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="81"/>
         <source>Main</source>
-        <translation>صلی</translation>
+        <translation type="finished">صلی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="86"/>
         <source>Display</source>
-        <translation>دیسپلی</translation>
+        <translation type="finished">دیسپلی</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="106"/>
         <source>Options</source>
-        <translation>اصلی</translation>
+        <translation type="finished">اصلی</translation>
     </message>
 </context>
 <context>
@@ -1138,27 +1142,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="14"/>
         <source>Form</source>
-        <translation>تراز</translation>
+        <translation type="finished">تراز</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="40"/>
         <source>Balance:</source>
-        <translation>راز:</translation>
+        <translation type="finished">راز:</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="54"/>
         <source>Number of transactions:</source>
-        <translation>تعداد معامله</translation>
+        <translation type="finished">تعداد معامله</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="61"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="68"/>
         <source>Unconfirmed:</source>
-        <translation>تایید نشده</translation>
+        <translation type="finished">تایید نشده</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="82"/>
@@ -1173,12 +1177,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="138"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>اخرین معاملات&amp;lt</translation>
+        <translation type="finished">اخرین معاملات&amp;lt</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="104"/>
         <source>Your current balance</source>
-        <translation>تزار جاری شما</translation>
+        <translation type="finished">تزار جاری شما</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="109"/>
@@ -1188,12 +1192,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../overviewpage.cpp" line="114"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>تعداد معاملات که تایید شده ولی هنوز در تزار جاری شما بر شمار نرفته است</translation>
+        <translation type="finished">تعداد معاملات که تایید شده ولی هنوز در تزار جاری شما بر شمار نرفته است</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="117"/>
         <source>Total number of transactions in wallet</source>
-        <translation>تعداد معاملات در صندوق</translation>
+        <translation type="finished">تعداد معاملات در صندوق</translation>
     </message>
 </context>
 <context>
@@ -1201,22 +1205,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>تگفتگو</translation>
+        <translation type="finished">تگفتگو</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="32"/>
         <source>QR Code</source>
-        <translation>کد QR</translation>
+        <translation type="finished">کد QR</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="55"/>
         <source>Request Payment</source>
-        <translation>درخواست پرداخت</translation>
+        <translation type="finished">درخواست پرداخت</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="70"/>
         <source>Amount:</source>
-        <translation>مقدار:</translation>
+        <translation type="finished">مقدار:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
@@ -1226,17 +1230,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
         <source>Label:</source>
-        <translation>برچسب:</translation>
+        <translation type="finished">برچسب:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="144"/>
         <source>Message:</source>
-        <translation>پیام</translation>
+        <translation type="finished">پیام</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="186"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;ذخیره به عنوان...</translation>
+        <translation type="finished">&amp;ذخیره به عنوان...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="46"/>
@@ -1371,7 +1375,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>ارسال سکه ها</translation>
+        <translation type="finished">ارسال سکه ها</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1402,7 +1406,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="235"/>
         <location filename="../forms/sendcoinsdialog.ui" line="270"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="251"/>
@@ -1412,7 +1416,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="302"/>
         <source>Amount:</source>
-        <translation type="unfinished">مقدار:</translation>
+        <translation type="finished">مقدار:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="324"/>
@@ -1420,7 +1424,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation type="unfinished">123.456 بتس {0.00 ?}</translation>
+        <translation type="finished">123.456 بتس {0.00 ?}</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -1465,42 +1469,42 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="665"/>
         <source>Send to multiple recipients at once</source>
-        <translation>ارسال چندین در یافت ها فورا</translation>
+        <translation type="finished">ارسال چندین در یافت ها فورا</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="668"/>
         <source>&amp;Add recipient...</source>
-        <translation>&amp;;در یافت کننده اضافه کنید ...</translation>
+        <translation type="finished">&amp;;در یافت کننده اضافه کنید ...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="685"/>
         <source>Remove all transaction fields</source>
-        <translation>پاک کردن تمام ستون‌های تراکنش</translation>
+        <translation type="finished">پاک کردن تمام ستون‌های تراکنش</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="688"/>
         <source>Clear all</source>
-        <translation>&gt;همه چیز پاک کنید</translation>
+        <translation type="finished">&gt;همه چیز پاک کنید</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="707"/>
         <source>Balance:</source>
-        <translation>تزار :</translation>
+        <translation type="finished">راز:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="714"/>
         <source>123.456 BTC</source>
-        <translation>123.456 بتس</translation>
+        <translation type="finished">123.456 بتس</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="745"/>
         <source>Confirm the send action</source>
-        <translation>عملیت دوم تایید کنید</translation>
+        <translation type="finished">عملیت دوم تایید کنید</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="748"/>
         <source>&amp;Send</source>
-        <translation>&amp;;ارسال</translation>
+        <translation type="finished">&amp;;ارسال</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="51"/>
@@ -1510,7 +1514,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="52"/>
         <source>Copy amount</source>
-        <translation type="unfinished">روگرفت مقدار</translation>
+        <translation type="finished">روگرفت مقدار</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="53"/>
@@ -1545,27 +1549,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>(%3) تا &lt;b&gt;%1&lt;/b&gt; درصد%2</translation>
+        <translation type="finished">(%3) تا &lt;b&gt;%1&lt;/b&gt; درصد%2</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>ارسال سکه ها تایید کنید</translation>
+        <translation type="finished">ارسال سکه ها تایید کنید</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>  %1شما متماینید که می خواهید 1% ارسال کنید ؟</translation>
+        <translation type="finished">  %1شما متماینید که می خواهید 1% ارسال کنید ؟</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
         <source> and </source>
-        <translation>و</translation>
+        <translation type="finished">و</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
         <source>The recepient address is not valid, please recheck.</source>
-        <translation>آدرس در یافت دو باره چک کنید</translation>
+        <translation type="finished">آدرس در یافت دو باره چک کنید</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="182"/>
@@ -1585,12 +1589,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="477"/>
         <source>(no label)</source>
-        <translation type="unfinished">خطای صادرت</translation>
+        <translation type="finished">خطای صادرت</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="187"/>
         <source>Amount exceeds your balance</source>
-        <translation>مبلغ از تزار بیشتر است </translation>
+        <translation type="finished">مبلغ از تزار بیشتر است </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
@@ -1600,22 +1604,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="192"/>
         <source>Total exceeds your balance when the %1 transaction fee is included</source>
-        <translation>مجموعه از تزار شما بیشتر می باشد وقتیکه 1% معامله شامل می شود %1 </translation>
+        <translation type="finished">مجموعه از تزار شما بیشتر می باشد وقتیکه 1% معامله شامل می شود %1 </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="198"/>
         <source>Duplicate address found, can only send to each address once in one send operation</source>
-        <translation>نشانی تکراری مشاهده شد. در یک عملیات ارسال فقط می‌توان یک بار به هر نشانی ارسال کرد</translation>
+        <translation type="finished">نشانی تکراری مشاهده شد. در یک عملیات ارسال فقط می‌توان یک بار به هر نشانی ارسال کرد</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="203"/>
         <source>Error: Transaction creation failed  </source>
-        <translation>خطا ایجاد معامله اشتباه است</translation>
+        <translation type="finished">خطا ایجاد معامله اشتباه است</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>خطا . معامله رد شد.این هنگامی که سکه ها در والت شما هنوز ارسال شده اند ولی شما کپی والت استفاده می کنید و سکه ها روی کپی فرستاده شده اند و به عنوان ارسال شنه مشخص نشده اتفاقی می افتد.</translation>
+        <translation type="finished">خطا . معامله رد شد.این هنگامی که سکه ها در والت شما هنوز ارسال شده اند ولی شما کپی والت استفاده می کنید و سکه ها روی کپی فرستاده شده اند و به عنوان ارسال شنه مشخص نشده اتفاقی می افتد.</translation>
     </message>
 </context>
 <context>
@@ -1623,28 +1627,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="14"/>
         <source>Form</source>
-        <translation>تراز</translation>
+        <translation type="finished">تراز</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>A&amp;mount:</source>
-        <translation>A&amp;amp;مبلغ :</translation>
+        <translation type="finished">A&amp;amp;مبلغ :</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="42"/>
         <source>Pay &amp;To:</source>
-        <translation>به&amp;amp;پر داخت :</translation>
+        <translation type="finished">به&amp;amp;پر داخت :</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="66"/>
         <location filename="../sendcoinsentry.cpp" line="26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>برای آدرس بر پسب وارد کنید که در دفتر آدرس اضافه شود</translation>
+        <translation type="finished">برای آدرس بر پسب وارد کنید که در دفتر آدرس اضافه شود</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="75"/>
         <source>&amp;Label:</source>
-        <translation>&amp; بر چسب </translation>
+        <translation type="finished">&amp; بر چسب </translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
@@ -1654,27 +1658,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
         <source>Choose address from address book</source>
-        <translation>اآدرسن ازدفتر آدرس انتخاب کنید</translation>
+        <translation type="finished">اآدرسن ازدفتر آدرس انتخاب کنید</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="113"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="finished">Alt+A</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="120"/>
         <source>Paste address from clipboard</source>
-        <translation>آدرس از تخته رسم گیره دار پست کنید </translation>
+        <translation type="finished">آدرس از تخته رسم گیره دار پست کنید </translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="130"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="finished">Alt+P</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="137"/>
         <source>Remove this recipient</source>
-        <translation>بر داشتن این در یافت کننده</translation>
+        <translation type="finished">بر داشتن این در یافت کننده</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
@@ -1692,7 +1696,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="24"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;امضای پیام</translation>
+        <translation type="finished">&amp;امضای پیام</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="30"/>
@@ -1714,22 +1718,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/signverifymessagedialog.ui" line="65"/>
         <location filename="../forms/signverifymessagedialog.ui" line="275"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation type="finished">Alt+A</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="75"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">آدرس از تخته رسم گیره دار پست کنید </translation>
+        <translation type="finished">آدرس از تخته رسم گیره دار پست کنید </translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="85"/>
         <source>Alt+P</source>
-        <translation type="unfinished">Alt+P</translation>
+        <translation type="finished">Alt+P</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="97"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">پیامی را که می‌خواهید امضا کنید در اینجا وارد کنید</translation>
+        <translation type="finished">پیامی را که می‌خواهید امضا کنید در اینجا وارد کنید</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="104"/>
@@ -1880,85 +1884,85 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="21"/>
         <source>Open for %1 blocks</source>
-        <translation>باز کردن 1% بلوک 1%1 </translation>
+        <translation type="finished">باز کردن 1% بلوک 1%1 </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="23"/>
         <source>Open until %1</source>
-        <translation>باز کردن تا%1</translation>
+        <translation type="finished">باز کردن تا%1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="29"/>
         <source>%1/offline?</source>
-        <translation>%1 انلاین نیست </translation>
+        <translation type="finished">%1 انلاین نیست </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="31"/>
         <source>%1/unconfirmed</source>
-        <translation>%1 تایید نشده </translation>
+        <translation type="finished">%1 تایید نشده </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="33"/>
         <source>%1 confirmations</source>
-        <translation>ایید %1 </translation>
+        <translation type="finished">ایید %1 </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="51"/>
         <source>&lt;b&gt;Status:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;وضعیت :&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;وضعیت :&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="56"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>هنوز با مو فقیت ارسال نشده</translation>
+        <translation type="finished">هنوز با مو فقیت ارسال نشده</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="58"/>
         <source>, broadcast through %1 node</source>
-        <translation>ارسال توسط گره %1</translation>
+        <translation type="finished">ارسال توسط گره %1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="60"/>
         <source>, broadcast through %1 nodes</source>
-        <translation>رسال توسط گره های  %1</translation>
+        <translation type="finished">رسال توسط گره های  %1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="64"/>
         <source>&lt;b&gt;Date:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;تاریخ :&amp;lt;/b&amp;gt</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;تاریخ :&amp;lt;/b&amp;gt</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="71"/>
         <source>&lt;b&gt;Source:&lt;/b&gt; Generated&lt;br&gt;</source>
-        <translation>&amp;lt;b&amp;gt;منبع :&amp;lt;/b&amp;gt; Generated&amp;lt;br&amp;gt</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;منبع :&amp;lt;/b&amp;gt; Generated&amp;lt;br&amp;gt</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="77"/>
         <location filename="../transactiondesc.cpp" line="94"/>
         <source>&lt;b&gt;From:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;از:&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;از:&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="94"/>
         <source>unknown</source>
-        <translation>مشخص نیست </translation>
+        <translation type="finished">مشخص نیست </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="95"/>
         <location filename="../transactiondesc.cpp" line="118"/>
         <location filename="../transactiondesc.cpp" line="178"/>
         <source>&lt;b&gt;To:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;به :&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;به :&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="98"/>
         <source> (yours, label: </source>
-        <translation>مال شما ، بر چسب( </translation>
+        <translation type="finished">مال شما ، بر چسب( </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="100"/>
         <source> (yours)</source>
-        <translation>مال شما) (</translation>
+        <translation type="finished">مال شما) (</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="136"/>
@@ -1966,34 +1970,34 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiondesc.cpp" line="195"/>
         <location filename="../transactiondesc.cpp" line="212"/>
         <source>&lt;b&gt;Credit:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;اعتبار :&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;اعتبار :&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="138"/>
         <source>(%1 matures in %2 more blocks)</source>
-        <translation>(%1 )بالغ در بلوک 2% و بیشتر%2</translation>
+        <translation type="finished">(%1 )بالغ در بلوک 2% و بیشتر%2</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="142"/>
         <source>(not accepted)</source>
-        <translation>قابل قبول نیست ( )</translation>
+        <translation type="finished">قابل قبول نیست ( )</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="186"/>
         <location filename="../transactiondesc.cpp" line="194"/>
         <location filename="../transactiondesc.cpp" line="209"/>
         <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;مقدار خالص:&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;مقدار خالص:&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="200"/>
         <source>&lt;b&gt;Transaction fee:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;پر داخت معامله :&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;پر داخت معامله :&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="218"/>
         <source>&lt;b&gt;Net amount:&lt;/b&gt; </source>
-        <translation>&amp;lt;b&amp;gt;مبلغ خالص :&amp;lt;/b&amp;gt;</translation>
+        <translation type="finished">&amp;lt;b&amp;gt;مبلغ خالص :&amp;lt;/b&amp;gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
@@ -2003,22 +2007,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
         <source>Message:</source>
-        <translation>پیام</translation>
+        <translation type="finished">پیام</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="229"/>
         <source>Comment:</source>
-        <translation>مورد نظر</translation>
+        <translation type="finished">مورد نظر</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="231"/>
         <source>Transaction ID:</source>
-        <translation>شماره تراکنش:</translation>
+        <translation type="finished">شماره تراکنش:</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"> برای ارسال واحد های تولید شده باید 120 بلوک باشند. هنگامی که بلون ایجاد می شود به شبکه ارسال می شود تا در زنجیر بلوکها اضافه شود. و گر نه بلوک به غیر قابول و غیر ارسال عوض می شود. این اتفاقی می افتد وقتی که همزمان گره دیگر در بلوک ایجاد می شود. {520 ?}</translation>
+        <translation type="finished"> برای ارسال واحد های تولید شده باید 120 بلوک باشند. هنگامی که بلون ایجاد می شود به شبکه ارسال می شود تا در زنجیر بلوکها اضافه شود. و گر نه بلوک به غیر قابول و غیر ارسال عوض می شود. این اتفاقی می افتد وقتی که همزمان گره دیگر در بلوک ایجاد می شود. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2031,12 +2035,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>جزییات معاملات</translation>
+        <translation type="finished">جزییات معاملات</translation>
     </message>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>در این قاب شیشه توصیف دقیق معامله نشان می شود</translation>
+        <translation type="finished">در این قاب شیشه توصیف دقیق معامله نشان می شود</translation>
     </message>
 </context>
 <context>
@@ -2044,91 +2048,93 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Date</source>
-        <translation>تاریخ</translation>
+        <translation type="finished">تاریخ</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Type</source>
-        <translation>نوع</translation>
+        <translation type="finished">نوع</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Address</source>
-        <translation>ایل جدا </translation>
+        <translation type="finished">ایل جدا </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Amount</source>
-        <translation>مبلغ</translation>
+        <translation type="finished">مبلغ</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="275"/>
         <source>Open for %n block(s)</source>
         <translation>
             <numerusform>بلوک %n باز شده برای</numerusform>
+            <numerusform>Open for %n blocks</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="278"/>
         <source>Open until %1</source>
-        <translation>از شده تا 1%1</translation>
+        <translation type="finished">باز کردن تا%1</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="281"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>افلایین   (%1)</translation>
+        <translation type="finished">افلایین   (%1)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="284"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>تایید نشده  (%1/%2)</translation>
+        <translation type="finished">تایید نشده  (%1/%2)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="287"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>تایید شده  (%1)</translation>
+        <translation type="finished">تایید شده  (%1)</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="295"/>
         <source>Mined balance will be available in %n more blocks</source>
         <translation>
             <numerusform>و بیشتر باشند قابل قابول می شود %n تزار اصلی بعد از اینکه بلوکها</numerusform>
+            <numerusform>Mined balance will be available in %n more blocks</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>این بلوک از دیگر گره ها در یافت نشده بدین دلیل شاید قابل قابول نیست</translation>
+        <translation type="finished">این بلوک از دیگر گره ها در یافت نشده بدین دلیل شاید قابل قابول نیست</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="304"/>
         <source>Generated but not accepted</source>
-        <translation>تولید شده ولی قبول نشده</translation>
+        <translation type="finished">تولید شده ولی قبول نشده</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="347"/>
         <source>Received with</source>
-        <translation>در یافت با :</translation>
+        <translation type="finished">در یافت با</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="349"/>
         <source>Received from</source>
-        <translation>دریافتی از</translation>
+        <translation type="finished">دریافتی از</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="352"/>
         <source>Sent to</source>
-        <translation>ارسال به :</translation>
+        <translation type="finished">ارسال به</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="354"/>
         <source>Payment to yourself</source>
-        <translation>پر داخت به خودتان</translation>
+        <translation type="finished">پر داخت به خودتان</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="356"/>
         <source>Mined</source>
-        <translation>استخراج</translation>
+        <translation type="finished">استخراج</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="358"/>
@@ -2138,32 +2144,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="397"/>
         <source>(n/a)</source>
-        <translation>(کاربرد ندارد)</translation>
+        <translation type="finished">(کاربرد ندارد)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="597"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>وضعیت معالمه . عرصه که تعداد تایید نشان می دهد</translation>
+        <translation type="finished">وضعیت معالمه . عرصه که تعداد تایید نشان می دهد</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="599"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>تاریخ و ساعت در یافت معامله</translation>
+        <translation type="finished">تاریخ و ساعت در یافت معامله</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="601"/>
         <source>Type of transaction.</source>
-        <translation>نوع معاملات</translation>
+        <translation type="finished">نوع معاملات</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="603"/>
         <source>Destination address of transaction.</source>
-        <translation>آدرس مقصود معاملات </translation>
+        <translation type="finished">آدرس مقصود معاملات </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="605"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>مبلغ از تزار شما خارج یا وارد شده</translation>
+        <translation type="finished">مبلغ از تزار شما خارج یا وارد شده</translation>
     </message>
 </context>
 <context>
@@ -2172,57 +2178,57 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactionview.cpp" line="55"/>
         <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
-        <translation>همه</translation>
+        <translation type="finished">همه</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
-        <translation>امروز</translation>
+        <translation type="finished">امروز</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
-        <translation>این هفته</translation>
+        <translation type="finished">این هفته</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
-        <translation>این ماه</translation>
+        <translation type="finished">این ماه</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
-        <translation>ماه گذشته</translation>
+        <translation type="finished">ماه گذشته</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
-        <translation>امسال</translation>
+        <translation type="finished">امسال</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
-        <translation>محدوده </translation>
+        <translation type="finished">محدوده </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
-        <translation>در یافت با</translation>
+        <translation type="finished">در یافت با</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
-        <translation>ارسال به</translation>
+        <translation type="finished">ارسال به</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
-        <translation>به خودتان </translation>
+        <translation type="finished">به خودتان </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
-        <translation>استخراج</translation>
+        <translation type="finished">استخراج</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="78"/>
@@ -2232,107 +2238,107 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactionview.cpp" line="79"/>
         <source>Other</source>
-        <translation>یگر </translation>
+        <translation type="finished">یگر </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
-        <translation>برای جست‌‌وجو نشانی یا برچسب را وارد کنید</translation>
+        <translation type="finished">برای جست‌‌وجو نشانی یا برچسب را وارد کنید</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="91"/>
         <source>Min amount</source>
-        <translation>حد اقل مبلغ </translation>
+        <translation type="finished">حد اقل مبلغ </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="125"/>
         <source>Copy address</source>
-        <translation>کپی آدرس </translation>
+        <translation type="finished">کپی آدرس </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="126"/>
         <source>Copy label</source>
-        <translation>کپی بر چسب</translation>
+        <translation type="finished">کپی بر چسب</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="127"/>
         <source>Copy amount</source>
-        <translation>روگرفت مقدار</translation>
+        <translation type="finished">روگرفت مقدار</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="128"/>
         <source>Edit label</source>
-        <translation>اصلاح بر چسب</translation>
+        <translation type="finished">اصلاح بر چسب</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="129"/>
         <source>Show details...</source>
-        <translation>جزییت نشان بده</translation>
+        <translation type="finished">جزییت نشان بده</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="269"/>
         <source>Export Transaction Data</source>
-        <translation>صادرات تاریخ معامله</translation>
+        <translation type="finished">صادرات تاریخ معامله</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="270"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma فایل جدا </translation>
+        <translation type="finished">Comma فایل جدا </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="278"/>
         <source>Confirmed</source>
-        <translation>تایید شده</translation>
+        <translation type="finished">تایید شده</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="279"/>
         <source>Date</source>
-        <translation>تاریخ </translation>
+        <translation type="finished">تاریخ</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="280"/>
         <source>Type</source>
-        <translation>نوع </translation>
+        <translation type="finished">نوع</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="281"/>
         <source>Label</source>
-        <translation>ر چسب</translation>
+        <translation type="finished">ر چسب</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="282"/>
         <source>Address</source>
-        <translation>ایل جدا </translation>
+        <translation type="finished">ایل جدا </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="283"/>
         <source>Amount</source>
-        <translation>مبلغ</translation>
+        <translation type="finished">مبلغ</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="284"/>
         <source>ID</source>
-        <translation>آی دی</translation>
+        <translation type="finished">آی دی</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="288"/>
         <source>Error exporting</source>
-        <translation>خطای صادرت</translation>
+        <translation type="finished">خطای صادرت</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="288"/>
         <source>Could not write to file %1.</source>
-        <translation>تا فایل %1 نمی شود نوشت</translation>
+        <translation type="finished">تا فایل %1 نمی شود نوشت</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="383"/>
         <source>Range:</source>
-        <translation>&gt;محدوده</translation>
+        <translation type="finished">&gt;محدوده</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="391"/>
         <source>to</source>
-        <translation>به</translation>
+        <translation type="finished">به</translation>
     </message>
 </context>
 <context>
@@ -2340,7 +2346,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../walletmodel.cpp" line="162"/>
         <source>Sending...</source>
-        <translation>ارسال...</translation>
+        <translation type="finished">ارسال...</translation>
     </message>
 </context>
 <context>
@@ -2348,12 +2354,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
         <source>Warning: Disk space is low  </source>
-        <translation type="unfinished">هشدار: جای دیسک پایین است </translation>
+        <translation type="finished">هشدار: جای دیسک پایین است </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
         <source>Usage:</source>
-        <translation type="unfinished">ستفاده :</translation>
+        <translation type="finished">ستفاده :</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
@@ -2373,17 +2379,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
         <source>List commands</source>
-        <translation type="unfinished">لیست فومان ها</translation>
+        <translation type="finished">لیست فومان ها</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="16"/>
         <source>Get help for a command</source>
-        <translation type="unfinished">کمک برای فرمان </translation>
+        <translation type="finished">کمک برای فرمان </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="17"/>
         <source>Options:</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation type="finished">تنظیمات</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
@@ -2393,22 +2399,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
         <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation type="unfinished">(ppcoind.pidپیش فرض : ) فایل پید خاص</translation>
+        <translation type="finished">(ppcoind.pidپیش فرض : ) فایل پید خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation type="unfinished">سکه های تولید شده</translation>
+        <translation type="finished">سکه های تولید شده</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
-        <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">تولید سکه ها</translation>
+        <source>Don't generate coins</source>
+        <translation type="finished">تولید سکه ها</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="22"/>
         <source>Start minimized</source>
-        <translation type="unfinished">شروع حد اقل</translation>
+        <translation type="finished">شروع حد اقل</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="23"/>
@@ -2418,7 +2424,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="24"/>
         <source>Specify data directory</source>
-        <translation type="unfinished">دایرکتور اطلاعاتی خاص</translation>
+        <translation type="finished">دایرکتور اطلاعاتی خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
@@ -2433,27 +2439,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="27"/>
         <source>Specify connection timeout (in milliseconds)</source>
-        <translation type="unfinished">(میلی ثانیه )فاصله ارتباط خاص</translation>
+        <translation type="finished">(میلی ثانیه )فاصله ارتباط خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
         <source>Connect through socks4 proxy</source>
-        <translation type="unfinished">socks4 proxy ارتباط توسط</translation>
+        <translation type="finished">socks4 proxy ارتباط توسط</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
         <source>Allow DNS lookups for addnode and connect</source>
-        <translation type="unfinished">اجازه متغیر دی ان اس برای اضافه گره یا ارتباط</translation>
+        <translation type="finished">اجازه متغیر دی ان اس برای اضافه گره یا ارتباط</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Listen for connections on &lt;port&gt; (default: 9901 or testnet: 9903)</source>
-        <translation type="unfinished">برای اتصالات به &lt;port&gt; (پیش‌فرض: 8333 یا تست‌نت: 18333) گوش کنید {9901 ?} {9903)?}</translation>
+        <translation type="finished">برای اتصالات به &lt;port&gt; (پیش‌فرض: 8333 یا تست‌نت: 18333) گوش کنید {9901 ?} {9903)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished">حداکثر &lt;n&gt; اتصال با همکاران برقرار داشته باشید (پیش‌فرض: 125)</translation>
+        <translation type="finished">حداکثر &lt;n&gt; اتصال با همکاران برقرار داشته باشید (پیش‌فرض: 125)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="32"/>
@@ -2463,7 +2469,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="33"/>
         <source>Connect only to the specified node</source>
-        <translation type="unfinished">ارتباط فقط به گره خاص</translation>
+        <translation type="finished">ارتباط فقط به گره خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="34"/>
@@ -2488,22 +2494,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="38"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished">آستانه برای قطع ارتباط با همکاران بدرفتار (پیش‌فرض: 100)</translation>
+        <translation type="finished">آستانه برای قطع ارتباط با همکاران بدرفتار (پیش‌فرض: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="39"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished">مدت زمان به ثانیه برای جلوگیری از همکاران بدرفتار برای اتصال دوباره (پیش‌فرض: 86400)</translation>
+        <translation type="finished">مدت زمان به ثانیه برای جلوگیری از همکاران بدرفتار برای اتصال دوباره (پیش‌فرض: 86400)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="42"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="unfinished">حداکثر بافر دریافتی در هر اتصال، 1000*&lt;n&gt; (پیش‌فرض: 10000)</translation>
+        <translation type="finished">حداکثر بافر دریافتی در هر اتصال، 1000*&lt;n&gt; (پیش‌فرض: 10000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="unfinished">حداکثر بافر ارسالی در هر اتصال، 1000*&lt;n&gt; (پیش‌فرض: 10000)</translation>
+        <translation type="finished">حداکثر بافر ارسالی در هر اتصال، 1000*&lt;n&gt; (پیش‌فرض: 10000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2523,62 +2529,62 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished">JSON-RPC قابل فرمانها و</translation>
+        <translation type="finished">JSON-RPC قابل فرمانها و</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished">اجرای در پس زمینه به عنوان شبح و قبول فرمان ها</translation>
+        <translation type="finished">اجرای در پس زمینه به عنوان شبح و قبول فرمان ها</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="49"/>
         <source>Use the test network</source>
-        <translation type="unfinished">استفاده شبکه آزمایش</translation>
+        <translation type="finished">استفاده شبکه آزمایش</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
         <source>Output extra debugging information</source>
-        <translation type="unfinished">اطلاعات اشکال‌زدایی اضافی خروجی</translation>
+        <translation type="finished">اطلاعات اشکال‌زدایی اضافی خروجی</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
         <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished">به خروجی اشکال‌زدایی برچسب زمان بزنید</translation>
+        <translation type="finished">به خروجی اشکال‌زدایی برچسب زمان بزنید</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished">اطلاعات ردگیری/اشکال‌زدایی را به جای فایل لاگ اشکال‌زدایی به کنسول بفرستید</translation>
+        <translation type="finished">اطلاعات ردگیری/اشکال‌زدایی را به جای فایل لاگ اشکال‌زدایی به کنسول بفرستید</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="53"/>
         <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished">اطلاعات ردگیری/اشکال‌زدایی را به اشکال‌زدا بفرستید</translation>
+        <translation type="finished">اطلاعات ردگیری/اشکال‌زدایی را به اشکال‌زدا بفرستید</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
         <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished">JSON-RPC شناسه برای ارتباطات</translation>
+        <translation type="finished">JSON-RPC شناسه برای ارتباطات</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="55"/>
         <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished">JSON-RPC عبارت عبور برای ارتباطات</translation>
+        <translation type="finished">JSON-RPC عبارت عبور برای ارتباطات</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9902)</source>
-        <translation type="unfinished">( 8332پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات {9902)?}</translation>
+        <translation type="finished">( 8332پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات {9902)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished">از آدرس آی پی خاص JSON-RPC قبول ارتباطات</translation>
+        <translation type="finished">از آدرس آی پی خاص JSON-RPC قبول ارتباطات</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="58"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished">(127.0.0.1پیش فرض: ) &amp;lt;ip&amp;gt; دادن فرمانها برای استفاده گره ها روی</translation>
+        <translation type="finished">(127.0.0.1پیش فرض: ) &amp;lt;ip&amp;gt; دادن فرمانها برای استفاده گره ها روی</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -2593,12 +2599,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="63"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished"> (100پیش فرض:)&amp;lt;n&amp;gt; گذاشتن اندازه کلید روی </translation>
+        <translation type="finished"> (100پیش فرض:)&amp;lt;n&amp;gt; گذاشتن اندازه کلید روی </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="64"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">اسکان مجدد زنجیر بلوکها برای گم والت معامله</translation>
+        <translation type="finished">اسکان مجدد زنجیر بلوکها برای گم والت معامله</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
@@ -2619,27 +2625,27 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="70"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished">JSON-RPCبرای ارتباطات   استفاده کنید OpenSSL (https)</translation>
+        <translation type="finished">JSON-RPCبرای ارتباطات   استفاده کنید OpenSSL (https)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"> (server.certپیش فرض: )گواهی نامه سرور</translation>
+        <translation type="finished"> (server.certپیش فرض: )گواهی نامه سرور</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="72"/>
         <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished">(server.pemپیش فرض: ) کلید خصوصی سرور</translation>
+        <translation type="finished">(server.pemپیش فرض: ) کلید خصوصی سرور</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="73"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished">رمز های قابل قبول(  TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation type="finished">رمز های قابل قبول(  TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>This help message</source>
-        <translation type="unfinished">پیام کمکی</translation>
+        <translation type="finished">پیام کمکی</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
@@ -2668,43 +2674,43 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
         <source>Loading addresses...</source>
-        <translation type="unfinished">بار گیری آدرس ها</translation>
+        <translation type="finished">بار گیری آدرس ها</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
         <source>Error loading addr.dat</source>
-        <translation type="unfinished">خطا در بارگیری addr.dat</translation>
+        <translation type="finished">خطا در بارگیری addr.dat</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
         <source>Loading block index...</source>
-        <translation type="unfinished">بار گیری شاخص بلوک</translation>
+        <translation type="finished">بار گیری شاخص بلوک</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="85"/>
         <source>Error loading blkindex.dat</source>
-        <translation type="unfinished">خطا در بارگیری blkindex.dat</translation>
+        <translation type="finished">خطا در بارگیری blkindex.dat</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished">بار گیری والت</translation>
+        <translation type="finished">بار گیری والت</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished">خطا در بارگیری wallet.dat: کیف پول خراب شده است</translation>
+        <translation type="finished">خطا در بارگیری wallet.dat: کیف پول خراب شده است</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="90"/>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished">خطا در بارگیری wallet.dat</translation>
+        <translation type="finished">خطا در بارگیری wallet.dat</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="91"/>
@@ -2724,32 +2730,32 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Rescanning...</source>
-        <translation type="unfinished">اسکان مجدد</translation>
+        <translation type="finished">اسکان مجدد</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
         <source>Done loading</source>
-        <translation type="unfinished">بار گیری انجام شده است</translation>
+        <translation type="finished">بار گیری انجام شده است</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
         <source>Invalid -proxy address</source>
-        <translation type="unfinished">آدرس پروکسی معتبر نیست </translation>
+        <translation type="finished">آدرس پروکسی معتبر نیست </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="97"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;</source>
-        <translation type="unfinished">paytxfee=&amp;lt;بالغ &amp;gt;مبلغ نا معتبر</translation>
+        <translation type="finished">paytxfee=&amp;lt;بالغ &amp;gt;مبلغ نا معتبر</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
         <source>Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">خطا : پر داخت خیلی بالا است. این پر داخت معامله است که شما هنگام ارسال معامله باید پر داخت کنید</translation>
+        <translation type="finished">خطا : پر داخت خیلی بالا است. این پر داخت معامله است که شما هنگام ارسال معامله باید پر داخت کنید</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="101"/>
         <source>Error: CreateThread(StartNode) failed</source>
-        <translation type="unfinished">خطا :ایجاد موضوع(گره) اشتباه بود</translation>
+        <translation type="finished">خطا :ایجاد موضوع(گره) اشتباه بود</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="102"/>
@@ -2798,17 +2804,17 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
         <source>Error: Transaction creation failed  </source>
-        <translation type="unfinished">خطا ایجاد معامله اشتباه است</translation>
+        <translation type="finished">خطا ایجاد معامله اشتباه است</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="127"/>
         <source>Sending...</source>
-        <translation type="unfinished">ارسال...</translation>
+        <translation type="finished">ارسال...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished">خطا . معامله رد شد.این هنگامی که سکه ها در والت شما هنوز ارسال شده اند ولی شما کپی والت استفاده می کنید و سکه ها روی کپی فرستاده شده اند و به عنوان ارسال شنه مشخص نشده اتفاقی می افتد.</translation>
+        <translation type="finished">خطا . معامله رد شد.این هنگامی که سکه ها در والت شما هنوز ارسال شده اند ولی شما کپی والت استفاده می کنید و سکه ها روی کپی فرستاده شده اند و به عنوان ارسال شنه مشخص نشده اتفاقی می افتد.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>

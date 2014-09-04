@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="sv">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE TS><TS language="sv" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -41,7 +39,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="14"/>
         <source>Address Book</source>
-        <translation>Adressbok</translation>
+        <translation type="finished">Adressbok</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
@@ -51,27 +49,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dubbelklicka för att ändra adress eller etikett</translation>
+        <translation type="finished">Dubbelklicka för att ändra adress eller etikett</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="57"/>
         <source>Create a new address</source>
-        <translation>Skapa ny adress</translation>
+        <translation type="finished">Skapa ny adress</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="60"/>
         <source>&amp;New Address...</source>
-        <translation>&amp;Ny adress...</translation>
+        <translation type="finished">&amp;Ny adress...</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="71"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopiera den markerade adressen till systemets Urklipp</translation>
+        <translation type="finished">Kopiera den markerade adressen till systemets Urklipp</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="74"/>
         <source>&amp;Copy to Clipboard</source>
-        <translation>&amp;amp; Kopiera till Urklipp</translation>
+        <translation type="finished">&amp;amp; Kopiera till Urklipp</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="85"/>
@@ -86,57 +84,57 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="99"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Signera meddelande</translation>
+        <translation type="finished">&amp;Signera meddelande</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="110"/>
         <source>Delete the currently selected address from the list. Only sending addresses can be deleted.</source>
-        <translation>Ta bort den markerade adressen från listan. Endast sändningsadresser kan tas bort.</translation>
+        <translation type="finished">Ta bort den markerade adressen från listan. Endast sändningsadresser kan tas bort.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="113"/>
         <source>&amp;Delete</source>
-        <translation>&amp;amp; Radera</translation>
+        <translation type="finished">&amp;amp; Radera</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
         <source>Copy address</source>
-        <translation>Kopiera adress</translation>
+        <translation type="finished">Kopiera adress</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="66"/>
         <source>Copy label</source>
-        <translation>Kopiera etikett</translation>
+        <translation type="finished">Kopiera etikett</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="67"/>
         <source>Edit</source>
-        <translation>Editera</translation>
+        <translation type="finished">Editera</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="68"/>
         <source>Delete</source>
-        <translation>Ta bort</translation>
+        <translation type="finished">Ta bort</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="273"/>
         <source>Export Address Book Data</source>
-        <translation>Exportera Adressboksinformation</translation>
+        <translation type="finished">Exportera Adressboksinformation</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="274"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommaseparerad fil (*. csv)</translation>
+        <translation type="finished">Kommaseparerad fil (*. csv)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="287"/>
         <source>Error exporting</source>
-        <translation>Fel vid export</translation>
+        <translation type="finished">Fel vid export</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="287"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunde inte skriva till filen %1.</translation>
+        <translation type="finished">Kunde inte skriva till filen %1.</translation>
     </message>
 </context>
 <context>
@@ -144,17 +142,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="79"/>
         <source>Label</source>
-        <translation>Etikett</translation>
+        <translation type="finished">Etikett</translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="79"/>
         <source>Address</source>
-        <translation>Adress</translation>
+        <translation type="finished">Adress</translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="115"/>
         <source>(no label)</source>
-        <translation>(Ingen etikett)</translation>
+        <translation type="finished">(Ingen etikett)</translation>
     </message>
 </context>
 <context>
@@ -162,84 +160,84 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation type="finished">Dialog</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="94"/>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation type="finished">TextLabel</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
-        <translation>Ange lösenord</translation>
+        <translation type="finished">Ange lösenord</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
-        <translation>Nytt lösenord</translation>
+        <translation type="finished">Nytt lösenord</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
-        <translation>Upprepa nytt lösenord</translation>
+        <translation type="finished">Upprepa nytt lösenord</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="34"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Ange plånbokens nya lösenfras. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;10 eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;</translation>
+        <translation type="finished">Ange plånbokens nya lösenfras. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;10 eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="35"/>
         <source>Encrypt wallet</source>
-        <translation>Kryptera plånbok</translation>
+        <translation type="finished">Kryptera plånbok</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="38"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenfras för att låsa upp plånboken.</translation>
+        <translation type="finished">Denna operation behöver din plånboks lösenfras för att låsa upp plånboken.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="43"/>
         <source>Unlock wallet</source>
-        <translation>Lås upp plånbok</translation>
+        <translation type="finished">Lås upp plånbok</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="46"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenfras för att dekryptera plånboken.</translation>
+        <translation type="finished">Denna operation behöver din plånboks lösenfras för att dekryptera plånboken.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="51"/>
         <source>Decrypt wallet</source>
-        <translation>Dekryptera plånbok</translation>
+        <translation type="finished">Dekryptera plånbok</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Change passphrase</source>
-        <translation>Ändra lösenfras</translation>
+        <translation type="finished">Ändra lösenfras</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="55"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Ange plånbokens gamla och nya lösenfras.</translation>
+        <translation type="finished">Ange plånbokens gamla och nya lösenfras.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
         <source>Confirm wallet encryption</source>
-        <translation>Bekräfta kryptering av plånbok</translation>
+        <translation type="finished">Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
         <location filename="../askpassphrasedialog.cpp" line="160"/>
         <source>Wallet encrypted</source>
-        <translation>Plånboken är krypterad</translation>
+        <translation type="finished">Plånboken är krypterad</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
         <location filename="../askpassphrasedialog.cpp" line="232"/>
         <source>Warning: The Caps Lock key is on.</source>
-        <translation>Varning: Caps Lock är påslaget</translation>
+        <translation type="finished">Varning: Caps Lock är påslaget</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
@@ -247,7 +245,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../askpassphrasedialog.cpp" line="166"/>
         <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>Wallet encryption failed</source>
-        <translation>Kryptering av plånbok misslyckades</translation>
+        <translation type="finished">Kryptering av plånbok misslyckades</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
@@ -263,35 +261,35 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="118"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Kryptering av plånbok misslyckades på grund av ett internt fel. Din plånbok blev inte krypterad.</translation>
+        <translation type="finished">Kryptering av plånbok misslyckades på grund av ett internt fel. Din plånbok blev inte krypterad.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="125"/>
         <location filename="../askpassphrasedialog.cpp" line="173"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De angivna lösenfraserna överensstämmer inte.</translation>
+        <translation type="finished">De angivna lösenfraserna överensstämmer inte.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="136"/>
         <source>Wallet unlock failed</source>
-        <translation>Upplåsning av plånbok misslyckades</translation>
+        <translation type="finished">Upplåsning av plånbok misslyckades</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="137"/>
         <location filename="../askpassphrasedialog.cpp" line="148"/>
         <location filename="../askpassphrasedialog.cpp" line="167"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lösenfrasen för dekryptering av plånbok var felaktig.</translation>
+        <translation type="finished">Lösenfrasen för dekryptering av plånbok var felaktig.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="147"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekryptering av plånbok misslyckades</translation>
+        <translation type="finished">Dekryptering av plånbok misslyckades</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="161"/>
         <source>Wallet passphrase was succesfully changed.</source>
-        <translation>Plånbokens lösenfras har ändrats.</translation>
+        <translation type="finished">Plånbokens lösenfras har ändrats.</translation>
     </message>
 </context>
 <context>
@@ -299,47 +297,47 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="183"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;amp; Översikt</translation>
+        <translation type="finished">&amp;amp; Översikt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="184"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Visa översiktsvy av plånbok</translation>
+        <translation type="finished">Visa översiktsvy av plånbok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="189"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Transaktioner</translation>
+        <translation type="finished">&amp;Transaktioner</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="190"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Bläddra i transaktionshistorik</translation>
+        <translation type="finished">Bläddra i transaktionshistorik</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="195"/>
         <source>&amp;Address Book</source>
-        <translation type="unfinished">&amp;Adressbok</translation>
+        <translation type="finished">&amp;Adressbok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="196"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished">Redigera listan med lagrade adresser och etiketter</translation>
+        <translation type="finished">Redigera listan med lagrade adresser och etiketter</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
         <source>&amp;Receive coins</source>
-        <translation type="unfinished">&amp;amp; Ta emot PPCoins</translation>
+        <translation type="finished">&amp;amp; Ta emot PPCoins</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="202"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished">Visa listan med adresser för att ta emot betalningar</translation>
+        <translation type="finished">Visa listan med adresser för att ta emot betalningar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="207"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">&amp;amp; Skicka PPCoins</translation>
+        <translation type="finished">&amp;amp; Skicka PPCoins</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="213"/>
@@ -354,12 +352,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Avsluta</translation>
+        <translation type="finished">&amp;Avsluta</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="234"/>
         <source>Quit application</source>
-        <translation type="unfinished">Avsluta programmet</translation>
+        <translation type="finished">Avsluta programmet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="238"/>
@@ -369,22 +367,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">Om &amp;Qt</translation>
+        <translation type="finished">Om &amp;Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Visa information om Qt</translation>
+        <translation type="finished">Visa information om Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="243"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished">&amp;amp; Alternativ ...</translation>
+        <translation type="finished">&amp;amp; Alternativ ...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
         <source>&amp;Export...</source>
-        <translation type="unfinished">&amp;amp;Exportera ...</translation>
+        <translation type="finished">&amp;amp;Exportera ...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
@@ -394,12 +392,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="250"/>
         <source>&amp;Encrypt Wallet</source>
-        <translation type="unfinished">&amp;amp;Kryptera plånbok</translation>
+        <translation type="finished">&amp;amp;Kryptera plånbok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
         <source>Encrypt or decrypt wallet</source>
-        <translation type="unfinished">Kryptera eller dekryptera plånbok</translation>
+        <translation type="finished">Kryptera eller dekryptera plånbok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
@@ -424,12 +422,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="258"/>
         <source>&amp;Change Passphrase</source>
-        <translation type="unfinished">&amp;amp;Byt lösenfras</translation>
+        <translation type="finished">&amp;amp;Byt lösenfras</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="259"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Byt lösenfras för kryptering av plånbok</translation>
+        <translation type="finished">Byt lösenfras för kryptering av plånbok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
@@ -444,32 +442,32 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="285"/>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Arkiv</translation>
+        <translation type="finished">&amp;Arkiv</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="294"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Inställningar</translation>
+        <translation type="finished">&amp;Inställningar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="301"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Hjälp</translation>
+        <translation type="finished">&amp;Hjälp</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="310"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Verktygsfält för Tabbar</translation>
+        <translation type="finished">Verktygsfält för Tabbar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="321"/>
         <source>Actions toolbar</source>
-        <translation type="unfinished">Verktygsfältet för Handlingar</translation>
+        <translation type="finished">Verktygsfältet för Handlingar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
         <source>[testnet]</source>
-        <translation type="unfinished">[testnet]</translation>
+        <translation type="finished">[testnet]</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="75"/>
@@ -515,21 +513,21 @@ Are you sure you wish to encrypt your wallet?</source>
         <location filename="../bitcoingui.cpp" line="489"/>
         <source>%n active connection(s) to Peercoin network</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="513"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">Synkroniserar med nätverk ...</translation>
+        <translation type="finished">Synkroniserar med nätverk ...</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="515"/>
         <source>~%n block(s) remaining</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>~%n block remaining</numerusform>
+            <numerusform>~%n blocks remaining</numerusform>
         </translation>
     </message>
     <message>
@@ -540,7 +538,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="538"/>
         <source>Downloaded %1 blocks of transaction history.</source>
-        <translation type="unfinished">Laddat ner %1 block från transaktionshistoriken.</translation>
+        <translation type="finished">Laddat ner %1 block från transaktionshistoriken.</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="553"/>
@@ -577,22 +575,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="571"/>
         <source>Up to date</source>
-        <translation type="unfinished">Uppdaterad</translation>
+        <translation type="finished">Uppdaterad</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="576"/>
         <source>Catching up...</source>
-        <translation type="unfinished">Hämtar senaste</translation>
+        <translation type="finished">Hämtar senaste</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="584"/>
         <source>Last received block was generated %1.</source>
-        <translation type="unfinished">Senast mottagna blocked genererades %1.</translation>
+        <translation type="finished">Senast mottagna blocked genererades %1.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="640"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation type="unfinished">Transaktionen överskrider storleksgränsen.
+        <translation type="finished">Transaktionen överskrider storleksgränsen.
 
 Du kan dock fortfarande skicka den mot en kostnad av %1. Denna avgift går till noderna som behandlar din transaktion och bidrar till nätverket.
 
@@ -601,17 +599,17 @@ Vill du betala denna avgift?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="645"/>
         <source>Sending...</source>
-        <translation type="unfinished">Skickar...</translation>
+        <translation type="finished">Skickar...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="672"/>
         <source>Sent transaction</source>
-        <translation type="unfinished">Transaktion skickad</translation>
+        <translation type="finished">Transaktion skickad</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="673"/>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Inkommande transaktion</translation>
+        <translation type="finished">Inkommande transaktion</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="674"/>
@@ -620,7 +618,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished">Datum: %1
+        <translation type="finished">Datum: %1
 Belopp: %2
 Typ: %3
 Adress:%4
@@ -634,12 +632,12 @@ Adress:%4
     <message>
         <location filename="../bitcoingui.cpp" line="795"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt;.</translation>
+        <translation type="finished">Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="805"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;.</translation>
+        <translation type="finished">Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="862"/>
@@ -683,7 +681,7 @@ Adress:%4
         <location filename="../forms/coincontroldialog.ui" line="64"/>
         <location filename="../forms/coincontroldialog.ui" line="96"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="77"/>
@@ -693,7 +691,7 @@ Adress:%4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="125"/>
         <source>Amount:</source>
-        <translation type="unfinished">Belopp:</translation>
+        <translation type="finished">Belopp:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="144"/>
@@ -701,7 +699,7 @@ Adress:%4
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation type="unfinished">123,456 BTC {0.00 ?}</translation>
+        <translation type="finished">123,456 BTC {0.00 ?}</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -752,17 +750,17 @@ Adress:%4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="477"/>
         <source>Amount</source>
-        <translation type="unfinished">Mängd</translation>
+        <translation type="finished">Mängd</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="487"/>
         <source>Address</source>
-        <translation type="unfinished">Adress</translation>
+        <translation type="finished">Adress</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="492"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation type="finished">Datum</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="497"/>
@@ -772,7 +770,7 @@ Adress:%4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="500"/>
         <source>Confirmed</source>
-        <translation type="unfinished">Bekräftad</translation>
+        <translation type="finished">Bekräftad</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="505"/>
@@ -782,12 +780,12 @@ Adress:%4
     <message>
         <location filename="../coincontroldialog.cpp" line="36"/>
         <source>Copy address</source>
-        <translation type="unfinished">Kopiera adress</translation>
+        <translation type="finished">Kopiera adress</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="37"/>
         <source>Copy label</source>
-        <translation type="unfinished">Kopiera etikett</translation>
+        <translation type="finished">Kopiera etikett</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="38"/>
@@ -918,7 +916,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../coincontroldialog.cpp" line="621"/>
         <location filename="../coincontroldialog.cpp" line="687"/>
         <source>(no label)</source>
-        <translation type="unfinished">(Ingen etikett)</translation>
+        <translation type="finished">(Ingen etikett)</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="678"/>
@@ -936,12 +934,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="275"/>
         <source>&amp;Unit to show amounts in: </source>
-        <translation>&amp;Enhet att visa belopp i:</translation>
+        <translation type="finished">&amp;Enhet att visa belopp i:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Välj en standard för enhets mått, att visa när du skickar mynt</translation>
+        <translation type="finished">Välj en standard för enhets mått, att visa när du skickar mynt</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
@@ -969,52 +967,52 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
-        <translation>Redigera adress</translation>
+        <translation type="finished">Redigera adress</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
-        <translation>&amp;Etikett</translation>
+        <translation type="finished">&amp;Etikett</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address book entry</source>
-        <translation>Den etikett som är associerad med detta adressboksinlägg</translation>
+        <translation type="finished">Den etikett som är associerad med detta adressboksinlägg</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
-        <translation>&amp;Adress</translation>
+        <translation type="finished">&amp;Adress</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="52"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adressen som är associerad med detta adressboksinlägg. Detta kan enbart ändras för sändande adresser.</translation>
+        <translation type="finished">Adressen som är associerad med detta adressboksinlägg. Detta kan enbart ändras för sändande adresser.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="20"/>
         <source>New receiving address</source>
-        <translation>Ny mottagaradress</translation>
+        <translation type="finished">Ny mottagaradress</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="24"/>
         <source>New sending address</source>
-        <translation>Ny avsändaradress</translation>
+        <translation type="finished">Ny avsändaradress</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="27"/>
         <source>Edit receiving address</source>
-        <translation>Redigera mottagaradress</translation>
+        <translation type="finished">Redigera mottagaradress</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="31"/>
         <source>Edit sending address</source>
-        <translation>Redigera avsändaradress</translation>
+        <translation type="finished">Redigera avsändaradress</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="91"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Den angivna adressen &quot;%1&quot; finns redan i adressboken.</translation>
+        <translation type="finished">Den angivna adressen &quot;%1&quot; finns redan i adressboken.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
@@ -1024,12 +1022,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
         <source>Could not unlock wallet.</source>
-        <translation>Plånboken kunde inte låsas upp.</translation>
+        <translation type="finished">Plånboken kunde inte låsas upp.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="106"/>
         <source>New key generation failed.</source>
-        <translation>Misslyckades med generering av ny nyckel.</translation>
+        <translation type="finished">Misslyckades med generering av ny nyckel.</translation>
     </message>
 </context>
 <context>
@@ -1037,27 +1035,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="177"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
+        <translation type="finished">&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="178"/>
         <source>Show only a tray icon after minimizing the window</source>
-        <translation>Visa endast en systemfältsikon vid minimering</translation>
+        <translation type="finished">Visa endast en systemfältsikon vid minimering</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="186"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Tilldela port med hjälp av &amp;UPnP</translation>
+        <translation type="finished">Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimera vid stängning</translation>
+        <translation type="finished">M&amp;inimera vid stängning</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="182"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
+        <translation type="finished">Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
@@ -1067,32 +1065,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
         <source>&amp;Connect through SOCKS4 proxy:</source>
-        <translation>&amp;Anslut via SOCKS4 proxy:</translation>
+        <translation type="finished">&amp;Anslut via SOCKS4 proxy:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Anslut till PPCoin-nätverket genom en SOCKS4-proxy (t.ex. när du ansluter genom Tor).</translation>
+        <translation type="finished">Anslut till PPCoin-nätverket genom en SOCKS4-proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
         <source>Proxy &amp;IP: </source>
-        <translation>Proxy &amp;IP: </translation>
+        <translation type="finished">Proxy &amp;IP: </translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="202"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Proxyns IP-adress (t.ex. 127.0.0.1).</translation>
+        <translation type="finished">Proxyns IP-adress (t.ex. 127.0.0.1).</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="205"/>
         <source>&amp;Port: </source>
-        <translation>&amp;Port: </translation>
+        <translation type="finished">&amp;Port: </translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="211"/>
         <source>Port of the proxy (e.g. 1234)</source>
-        <translation>Proxyns port (t.ex. 1234)</translation>
+        <translation type="finished">Proxyns port (t.ex. 1234)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
@@ -1130,17 +1128,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="81"/>
         <source>Main</source>
-        <translation>Allmänt</translation>
+        <translation type="finished">Allmänt</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="86"/>
         <source>Display</source>
-        <translation>Visa</translation>
+        <translation type="finished">Visa</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="106"/>
         <source>Options</source>
-        <translation>Alternativ</translation>
+        <translation type="finished">Alternativ</translation>
     </message>
 </context>
 <context>
@@ -1148,27 +1146,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation type="finished">Formulär</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="40"/>
         <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <translation type="finished">Balans:</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="54"/>
         <source>Number of transactions:</source>
-        <translation>Antal transaktioner:</translation>
+        <translation type="finished">Antal transaktioner:</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="61"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="68"/>
         <source>Unconfirmed:</source>
-        <translation>Obekräftade:</translation>
+        <translation type="finished">Obekräftade:</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="82"/>
@@ -1183,12 +1181,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="138"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Nyligen genomförda transaktioner&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Nyligen genomförda transaktioner&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="104"/>
         <source>Your current balance</source>
-        <translation>Ditt nuvarande saldo</translation>
+        <translation type="finished">Ditt nuvarande saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="109"/>
@@ -1198,12 +1196,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../overviewpage.cpp" line="114"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Totalt antal transaktioner som ännu inte bekräftats, och som ännu inte räknas med i aktuellt saldo</translation>
+        <translation type="finished">Totalt antal transaktioner som ännu inte bekräftats, och som ännu inte räknas med i aktuellt saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="117"/>
         <source>Total number of transactions in wallet</source>
-        <translation>Totalt antal transaktioner i plånboken</translation>
+        <translation type="finished">Totalt antal transaktioner i plånboken</translation>
     </message>
 </context>
 <context>
@@ -1211,7 +1209,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation type="finished">Dialog</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="32"/>
@@ -1226,7 +1224,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="70"/>
         <source>Amount:</source>
-        <translation>Belopp:</translation>
+        <translation type="finished">Belopp:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
@@ -1236,17 +1234,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
         <source>Label:</source>
-        <translation>Etikett:</translation>
+        <translation type="finished">Etikett:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="144"/>
         <source>Message:</source>
-        <translation>Meddelande:</translation>
+        <translation type="finished">Meddelande:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="186"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Spara som...</translation>
+        <translation type="finished">&amp;Spara som...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="46"/>
@@ -1381,7 +1379,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>Skicka pengar</translation>
+        <translation type="finished">Skicka pengar</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1412,7 +1410,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="235"/>
         <location filename="../forms/sendcoinsdialog.ui" line="270"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="finished">0</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="251"/>
@@ -1422,7 +1420,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="302"/>
         <source>Amount:</source>
-        <translation type="unfinished">Belopp:</translation>
+        <translation type="finished">Belopp:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="324"/>
@@ -1430,7 +1428,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation type="unfinished">123,456 BTC {0.00 ?}</translation>
+        <translation type="finished">123,456 BTC {0.00 ?}</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -1475,12 +1473,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="665"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Skicka till flera mottagare samtidigt</translation>
+        <translation type="finished">Skicka till flera mottagare samtidigt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="668"/>
         <source>&amp;Add recipient...</source>
-        <translation>&amp;Lägg till mottagare...</translation>
+        <translation type="finished">&amp;Lägg till mottagare...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="685"/>
@@ -1490,27 +1488,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="688"/>
         <source>Clear all</source>
-        <translation>Rensa alla</translation>
+        <translation type="finished">Rensa alla</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="707"/>
         <source>Balance:</source>
-        <translation>Balans:</translation>
+        <translation type="finished">Balans:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="714"/>
         <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <translation type="finished">123,456 BTC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="745"/>
         <source>Confirm the send action</source>
-        <translation>Bekräfta sänd ordern</translation>
+        <translation type="finished">Bekräfta sänd ordern</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="748"/>
         <source>&amp;Send</source>
-        <translation>&amp;Skicka</translation>
+        <translation type="finished">&amp;Skicka</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="51"/>
@@ -1555,27 +1553,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; till %2 (%3)</translation>
+        <translation type="finished">&lt;b&gt;%1&lt;/b&gt; till %2 (%3)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Bekräfta skickade mynt</translation>
+        <translation type="finished">Bekräfta skickade mynt</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Är du säker på att du vill skicka %1?</translation>
+        <translation type="finished">Är du säker på att du vill skicka %1?</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
         <source> and </source>
-        <translation> and </translation>
+        <translation type="finished"> and </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
         <source>The recepient address is not valid, please recheck.</source>
-        <translation>Mottagarens adress är inte giltig, vänligen kontrollera igen.</translation>
+        <translation type="finished">Mottagarens adress är inte giltig, vänligen kontrollera igen.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="182"/>
@@ -1595,12 +1593,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="477"/>
         <source>(no label)</source>
-        <translation type="unfinished">(Ingen etikett)</translation>
+        <translation type="finished">(Ingen etikett)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="187"/>
         <source>Amount exceeds your balance</source>
-        <translation>Värdet överstiger ditt saldo</translation>
+        <translation type="finished">Värdet överstiger ditt saldo</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
@@ -1610,22 +1608,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="192"/>
         <source>Total exceeds your balance when the %1 transaction fee is included</source>
-        <translation>Totalt överstiger det ditt saldo när transaktionsavgiften %1 ingår</translation>
+        <translation type="finished">Totalt överstiger det ditt saldo när transaktionsavgiften %1 ingår</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="198"/>
         <source>Duplicate address found, can only send to each address once in one send operation</source>
-        <translation>Dublett av adress funnen, kan bara skicka till varje adress en gång per sändning</translation>
+        <translation type="finished">Dublett av adress funnen, kan bara skicka till varje adress en gång per sändning</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="203"/>
         <source>Error: Transaction creation failed  </source>
-        <translation>Fel: Transaktionen gick inte att skapa</translation>
+        <translation type="finished">Fel: Transaktionen gick inte att skapa</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, som om du använde en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
+        <translation type="finished">Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, som om du använde en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
     </message>
 </context>
 <context>
@@ -1633,28 +1631,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation type="finished">Formulär</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>A&amp;mount:</source>
-        <translation>&amp;Belopp</translation>
+        <translation type="finished">&amp;Belopp</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="42"/>
         <source>Pay &amp;To:</source>
-        <translation>Betala &amp; Till:</translation>
+        <translation type="finished">Betala &amp; Till:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="66"/>
         <location filename="../sendcoinsentry.cpp" line="26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Ange ett namn för den här adressen och lägg till den i din adressbok</translation>
+        <translation type="finished">Ange ett namn för den här adressen och lägg till den i din adressbok</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="75"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Etikett:</translation>
+        <translation type="finished">&amp;Etikett:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
@@ -1664,27 +1662,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
         <source>Choose address from address book</source>
-        <translation>Välj adress från adresslistan</translation>
+        <translation type="finished">Välj adress från adresslistan</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="113"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="finished">Alt+A</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="120"/>
         <source>Paste address from clipboard</source>
-        <translation>Klistra in adress från Urklipp</translation>
+        <translation type="finished">Klistra in adress från Urklipp</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="130"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="finished">Alt+P</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="137"/>
         <source>Remove this recipient</source>
-        <translation>Ta bort denna mottagare</translation>
+        <translation type="finished">Ta bort denna mottagare</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
@@ -1702,7 +1700,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="24"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Signera meddelande</translation>
+        <translation type="finished">&amp;Signera meddelande</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="30"/>
@@ -1724,17 +1722,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/signverifymessagedialog.ui" line="65"/>
         <location filename="../forms/signverifymessagedialog.ui" line="275"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation type="finished">Alt+A</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="75"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Klistra in adress från Urklipp</translation>
+        <translation type="finished">Klistra in adress från Urklipp</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="85"/>
         <source>Alt+P</source>
-        <translation type="unfinished">Alt+P</translation>
+        <translation type="finished">Alt+P</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="97"/>
@@ -1890,85 +1888,85 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="21"/>
         <source>Open for %1 blocks</source>
-        <translation>Öppen för %1 block</translation>
+        <translation type="finished">Öppen för %1 block</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="23"/>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation type="finished">Öppet till %1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="29"/>
         <source>%1/offline?</source>
-        <translation>%1/nerkopplad?</translation>
+        <translation type="finished">%1/nerkopplad?</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="31"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/okonfirmerad</translation>
+        <translation type="finished">%1/okonfirmerad</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="33"/>
         <source>%1 confirmations</source>
-        <translation>%1 bekräftelser</translation>
+        <translation type="finished">%1 bekräftelser</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="51"/>
         <source>&lt;b&gt;Status:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Status:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Status:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="56"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, har inte lyckats skickas ännu</translation>
+        <translation type="finished">, har inte lyckats skickas ännu</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="58"/>
         <source>, broadcast through %1 node</source>
-        <translation>, sänd genom %1 nod</translation>
+        <translation type="finished">, sänd genom %1 nod</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="60"/>
         <source>, broadcast through %1 nodes</source>
-        <translation>, sänd genom %1 noder</translation>
+        <translation type="finished">, sänd genom %1 noder</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="64"/>
         <source>&lt;b&gt;Date:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Datum:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Datum:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="71"/>
         <source>&lt;b&gt;Source:&lt;/b&gt; Generated&lt;br&gt;</source>
-        <translation>&lt;b&gt;Källa:&lt;/b&gt; Genererade&lt;br&gt;</translation>
+        <translation type="finished">&lt;b&gt;Källa:&lt;/b&gt; Genererade&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="77"/>
         <location filename="../transactiondesc.cpp" line="94"/>
         <source>&lt;b&gt;From:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Från:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Från:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="94"/>
         <source>unknown</source>
-        <translation>okänd</translation>
+        <translation type="finished">okänd</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="95"/>
         <location filename="../transactiondesc.cpp" line="118"/>
         <location filename="../transactiondesc.cpp" line="178"/>
         <source>&lt;b&gt;To:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Till:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Till:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="98"/>
         <source> (yours, label: </source>
-        <translation> (din, etikett: </translation>
+        <translation type="finished"> (din, etikett: </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="100"/>
         <source> (yours)</source>
-        <translation>(dina)</translation>
+        <translation type="finished">(dina)</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="136"/>
@@ -1976,7 +1974,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiondesc.cpp" line="195"/>
         <location filename="../transactiondesc.cpp" line="212"/>
         <source>&lt;b&gt;Credit:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Kredit:&lt;/b&gt; </translation>
+        <translation type="finished">&lt;b&gt;Kredit:&lt;/b&gt; </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="138"/>
@@ -1986,24 +1984,24 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="142"/>
         <source>(not accepted)</source>
-        <translation>(inte accepterad)</translation>
+        <translation type="finished">(inte accepterad)</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="186"/>
         <location filename="../transactiondesc.cpp" line="194"/>
         <location filename="../transactiondesc.cpp" line="209"/>
         <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Debet:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Debet:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="200"/>
         <source>&lt;b&gt;Transaction fee:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Transaktionsavgift:&lt;/b&gt;</translation>
+        <translation type="finished">&lt;b&gt;Transaktionsavgift:&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="218"/>
         <source>&lt;b&gt;Net amount:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Nettobelopp:&lt;/b&gt; </translation>
+        <translation type="finished">&lt;b&gt;Nettobelopp:&lt;/b&gt; </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
@@ -2013,12 +2011,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
         <source>Message:</source>
-        <translation>Meddelande:</translation>
+        <translation type="finished">Meddelande:</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="229"/>
         <source>Comment:</source>
-        <translation>Kommentar:</translation>
+        <translation type="finished">Kommentar:</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="231"/>
@@ -2028,7 +2026,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">Genererade mynt måste vänta 120 block innan de kan användas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ändras till &quot;accepteras inte&quot; och kommer ej att gå att spendera. Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig. {520 ?}</translation>
+        <translation type="finished">Genererade mynt måste vänta 120 block innan de kan användas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ändras till &quot;accepteras inte&quot; och kommer ej att gå att spendera. Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2041,12 +2039,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>Transaktionsdetaljer</translation>
+        <translation type="finished">Transaktionsdetaljer</translation>
     </message>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
+        <translation type="finished">Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
     </message>
 </context>
 <context>
@@ -2054,73 +2052,73 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation type="finished">Datum</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation type="finished">Typ</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Address</source>
-        <translation>Adress</translation>
+        <translation type="finished">Adress</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="214"/>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation type="finished">Mängd</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="275"/>
         <source>Open for %n block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Open for %n block</numerusform>
+            <numerusform>Open for %n blocks</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="278"/>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation type="finished">Öppet till %1</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="281"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 bekräftelser)</translation>
+        <translation type="finished">Offline (%1 bekräftelser)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="284"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Obekräftad (%1 av %2 bekräftelser)</translation>
+        <translation type="finished">Obekräftad (%1 av %2 bekräftelser)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="287"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekräftad (%1 bekräftelser)</translation>
+        <translation type="finished">Bekräftad (%1 bekräftelser)</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="295"/>
         <source>Mined balance will be available in %n more blocks</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Mined balance will be available in %n more block</numerusform>
+            <numerusform>Mined balance will be available in %n more blocks</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Det här blocket togs inte emot av några andra noder och kommer antagligen inte att bli godkänt.</translation>
+        <translation type="finished">Det här blocket togs inte emot av några andra noder och kommer antagligen inte att bli godkänt.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="304"/>
         <source>Generated but not accepted</source>
-        <translation>Genererad men inte accepterad</translation>
+        <translation type="finished">Genererad men inte accepterad</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="347"/>
         <source>Received with</source>
-        <translation>Mottagen med</translation>
+        <translation type="finished">Mottagen med</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="349"/>
@@ -2130,17 +2128,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="352"/>
         <source>Sent to</source>
-        <translation>Skickad till</translation>
+        <translation type="finished">Skickad till</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="354"/>
         <source>Payment to yourself</source>
-        <translation>Betalning till dig själv</translation>
+        <translation type="finished">Betalning till dig själv</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="356"/>
         <source>Mined</source>
-        <translation>Skapad</translation>
+        <translation type="finished">Skapad</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="358"/>
@@ -2150,27 +2148,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="397"/>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation type="finished">(n/a)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="597"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
+        <translation type="finished">Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="599"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Tidpunkt då transaktionen mottogs</translation>
+        <translation type="finished">Tidpunkt då transaktionen mottogs</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="601"/>
         <source>Type of transaction.</source>
-        <translation>Transaktionstyp.</translation>
+        <translation type="finished">Transaktionstyp.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="603"/>
         <source>Destination address of transaction.</source>
-        <translation>Transaktionens destinationsadress.</translation>
+        <translation type="finished">Transaktionens destinationsadress.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="605"/>
@@ -2184,57 +2182,57 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactionview.cpp" line="55"/>
         <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
-        <translation>Alla</translation>
+        <translation type="finished">Alla</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
-        <translation>Idag</translation>
+        <translation type="finished">Idag</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
-        <translation>Denna vecka</translation>
+        <translation type="finished">Denna vecka</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
-        <translation>Denna månad</translation>
+        <translation type="finished">Denna månad</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
-        <translation>Föregående månad</translation>
+        <translation type="finished">Föregående månad</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
-        <translation>Det här året</translation>
+        <translation type="finished">Det här året</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
-        <translation>Period...</translation>
+        <translation type="finished">Period...</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
-        <translation>Mottagen med</translation>
+        <translation type="finished">Mottagen med</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
-        <translation>Skickad till</translation>
+        <translation type="finished">Skickad till</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
-        <translation>Till dig själv</translation>
+        <translation type="finished">Till dig själv</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
-        <translation>Skapad</translation>
+        <translation type="finished">Skapad</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="78"/>
@@ -2244,27 +2242,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactionview.cpp" line="79"/>
         <source>Other</source>
-        <translation>Övriga</translation>
+        <translation type="finished">Övriga</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
-        <translation>Sök efter adress eller etikett </translation>
+        <translation type="finished">Sök efter adress eller etikett </translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="91"/>
         <source>Min amount</source>
-        <translation>Minsta mängd</translation>
+        <translation type="finished">Minsta mängd</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="125"/>
         <source>Copy address</source>
-        <translation>Kopiera adress</translation>
+        <translation type="finished">Kopiera adress</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="126"/>
         <source>Copy label</source>
-        <translation>Kopiera etikett</translation>
+        <translation type="finished">Kopiera etikett</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="127"/>
@@ -2274,77 +2272,77 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactionview.cpp" line="128"/>
         <source>Edit label</source>
-        <translation>Editera etikett</translation>
+        <translation type="finished">Editera etikett</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="129"/>
         <source>Show details...</source>
-        <translation>Visa detaljer...</translation>
+        <translation type="finished">Visa detaljer...</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="269"/>
         <source>Export Transaction Data</source>
-        <translation>Exportera Transaktions Data</translation>
+        <translation type="finished">Exportera Transaktions Data</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="270"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommaseparerad fil (*. csv)</translation>
+        <translation type="finished">Kommaseparerad fil (*. csv)</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="278"/>
         <source>Confirmed</source>
-        <translation>Bekräftad</translation>
+        <translation type="finished">Bekräftad</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="279"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation type="finished">Datum</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="280"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation type="finished">Typ</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="281"/>
         <source>Label</source>
-        <translation>Etikett</translation>
+        <translation type="finished">Etikett</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="282"/>
         <source>Address</source>
-        <translation>Adress</translation>
+        <translation type="finished">Adress</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="283"/>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation type="finished">Mängd</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="284"/>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation type="finished">ID</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="288"/>
         <source>Error exporting</source>
-        <translation>Fel vid export</translation>
+        <translation type="finished">Fel vid export</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="288"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunde inte skriva till filen %1.</translation>
+        <translation type="finished">Kunde inte skriva till filen %1.</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="383"/>
         <source>Range:</source>
-        <translation>Intervall:</translation>
+        <translation type="finished">Intervall:</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="391"/>
         <source>to</source>
-        <translation>till</translation>
+        <translation type="finished">till</translation>
     </message>
 </context>
 <context>
@@ -2352,7 +2350,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../walletmodel.cpp" line="162"/>
         <source>Sending...</source>
-        <translation>Skickar...</translation>
+        <translation type="finished">Skickar...</translation>
     </message>
 </context>
 <context>
@@ -2365,7 +2363,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
         <source>Usage:</source>
-        <translation type="unfinished">Användning:</translation>
+        <translation type="finished">Användning:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
@@ -2385,17 +2383,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
         <source>List commands</source>
-        <translation type="unfinished">Lista kommandon</translation>
+        <translation type="finished">Lista kommandon</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="16"/>
         <source>Get help for a command</source>
-        <translation type="unfinished">Få hjälp med ett kommando</translation>
+        <translation type="finished">Få hjälp med ett kommando</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="17"/>
         <source>Options:</source>
-        <translation type="unfinished">Inställningar:</translation>
+        <translation type="finished">Inställningar:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
@@ -2405,22 +2403,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
         <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation type="unfinished">Ange pid fil (standard:ppcoind.pid)</translation>
+        <translation type="finished">Ange pid fil (standard:ppcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation type="unfinished">Generera mynt</translation>
+        <translation type="finished">Generera mynt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
-        <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">Generera ej mynt</translation>
+        <source>Don't generate coins</source>
+        <translation type="finished">Generera ej mynt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="22"/>
         <source>Start minimized</source>
-        <translation type="unfinished">Starta som minimerad</translation>
+        <translation type="finished">Starta som minimerad</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="23"/>
@@ -2430,7 +2428,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="24"/>
         <source>Specify data directory</source>
-        <translation type="unfinished">Ange katalog för data</translation>
+        <translation type="finished">Ange katalog för data</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
@@ -2445,12 +2443,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="27"/>
         <source>Specify connection timeout (in milliseconds)</source>
-        <translation type="unfinished">Ange timeout för uppkoppling (i millisekunder)</translation>
+        <translation type="finished">Ange timeout för uppkoppling (i millisekunder)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
         <source>Connect through socks4 proxy</source>
-        <translation type="unfinished">Koppla upp genom socks4 proxy</translation>
+        <translation type="finished">Koppla upp genom socks4 proxy</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -2475,7 +2473,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="33"/>
         <source>Connect only to the specified node</source>
-        <translation type="unfinished">Koppla enbart upp till den specifierade noden</translation>
+        <translation type="finished">Koppla enbart upp till den specifierade noden</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="34"/>
@@ -2545,7 +2543,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="49"/>
         <source>Use the test network</source>
-        <translation type="unfinished">Använd test nätverket</translation>
+        <translation type="finished">Använd test nätverket</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -2610,7 +2608,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="64"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">Sök i block-kedjan efter saknade wallet transaktioner</translation>
+        <translation type="finished">Sök i block-kedjan efter saknade wallet transaktioner</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
@@ -2651,7 +2649,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>This help message</source>
-        <translation type="unfinished">Det här hjälp medelandet</translation>
+        <translation type="finished">Det här hjälp medelandet</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
@@ -2680,13 +2678,13 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
         <source>Loading addresses...</source>
-        <translation type="unfinished">Laddar adresser...</translation>
+        <translation type="finished">Laddar adresser...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
@@ -2696,7 +2694,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
         <source>Loading block index...</source>
-        <translation type="unfinished">Laddar block index...</translation>
+        <translation type="finished">Laddar block index...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="85"/>
@@ -2706,17 +2704,17 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished">Laddar konto...</translation>
+        <translation type="finished">Laddar konto...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished">Fel vid inläsningen av wallet.dat: Kontofilen verkar skadad</translation>
+        <translation type="finished">Fel vid inläsningen av wallet.dat: Kontofilen verkar skadad</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="90"/>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished">Fel vid inläsning av kontofilen wallet.dat</translation>
+        <translation type="finished">Fel vid inläsning av kontofilen wallet.dat</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="91"/>
@@ -2736,22 +2734,22 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Rescanning...</source>
-        <translation type="unfinished">Söker igen...</translation>
+        <translation type="finished">Söker igen...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
         <source>Done loading</source>
-        <translation type="unfinished">Klar med laddning</translation>
+        <translation type="finished">Klar med laddning</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
         <source>Invalid -proxy address</source>
-        <translation type="unfinished">Ogiltig proxyadress</translation>
+        <translation type="finished">Ogiltig proxyadress</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="97"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;</source>
-        <translation type="unfinished">Ogiltigt belopp för -paytxfee=&lt;belopp&gt;</translation>
+        <translation type="finished">Ogiltigt belopp för -paytxfee=&lt;belopp&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
@@ -2810,17 +2808,17 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
         <source>Error: Transaction creation failed  </source>
-        <translation type="unfinished">Fel: Transaktionen gick inte att skapa</translation>
+        <translation type="finished">Fel: Transaktionen gick inte att skapa</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="127"/>
         <source>Sending...</source>
-        <translation type="unfinished">Skickar...</translation>
+        <translation type="finished">Skickar...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished">Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, som om du använde en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
+        <translation type="finished">Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, som om du använde en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
