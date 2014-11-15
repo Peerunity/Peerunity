@@ -10,6 +10,7 @@
 #include "addressbookpage.h"
 #include "sendcoinsdialog.h"
 #include "signverifymessagedialog.h"
+#include "multisigdialog.h"
 #include "optionsdialog.h"
 #include "aboutdialog.h"
 #include "clientmodel.h"
@@ -117,6 +118,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     sendCoinsPage = new SendCoinsDialog(this);
 
     messagePage = new SignVerifyMessageDialog(this);
+
+    multisigPage = new MultisigDialog(this);
 
     centralWidget = new QStackedWidget(this);
     centralWidget->addWidget(overviewPage);
@@ -231,6 +234,9 @@ void BitcoinGUI::createActions()
 #endif
     tabGroup->addAction(messageAction);
 
+    multisigAction = new QAction(QIcon(":/icons/send"), tr("Multisig"), this);
+    tabGroup->addAction(multisigAction);
+
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(historyAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -245,6 +251,8 @@ void BitcoinGUI::createActions()
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
     connect(messageAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(messageAction, SIGNAL(triggered()), this, SLOT(gotoMessagePage()));
+    connect(multisigAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(multisigAction, SIGNAL(triggered()), this, SLOT(gotoMultisigPage()));
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
     quitAction->setToolTip(tr("Quit application"));
@@ -304,6 +312,7 @@ void BitcoinGUI::createMenuBar()
 #ifndef FIRST_CLASS_MESSAGING
     file->addAction(messageAction);
 #endif
+    file->addAction(multisigAction);
     file->addSeparator();
     file->addAction(quitAction);
 
@@ -392,6 +401,7 @@ void BitcoinGUI::setWalletModel(WalletModel *walletModel)
         receiveCoinsPage->setModel(walletModel->getAddressTableModel());
         sendCoinsPage->setModel(walletModel);
         messagePage->setModel(walletModel);
+        multisigPage->setModel(walletModel);
 
         setEncryptionStatus(walletModel->getEncryptionStatus());
         connect(walletModel, SIGNAL(encryptionStatusChanged(int)), this, SLOT(setEncryptionStatus(int)));
@@ -433,6 +443,7 @@ void BitcoinGUI::createTrayIcon()
 #endif
     trayIconMenu->addAction(receiveCoinsAction);
     trayIconMenu->addAction(sendCoinsAction);
+    trayIconMenu->addAction(multisigAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(optionsAction);
 #ifndef Q_WS_MAC // This is built-in on Mac
@@ -768,6 +779,12 @@ void BitcoinGUI::gotoMessagePage()
     messagePage->show();
     messagePage->setFocus();
 #endif
+}
+
+void BitcoinGUI::gotoMultisigPage()
+{
+    multisigPage->show();
+    multisigPage->setFocus();
 }
 
 void BitcoinGUI::dragEnterEvent(QDragEnterEvent *event)

@@ -124,6 +124,7 @@ public:
     void listLockedCoins(std::vector<COutPoint>& vOutpts); 
 
     void clearOrphans();
+    CWallet * getWallet();
 
 private:
     CWallet *wallet;

@@ -388,3 +388,8 @@ void WalletModel::clearOrphans()
 {
     wallet->ClearOrphans();
 }
+
+CWallet * WalletModel::getWallet()
+{
+    return wallet;
+}
