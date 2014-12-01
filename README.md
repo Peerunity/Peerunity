@@ -1,4 +1,4 @@
-# Peerunity Official Developent Repository
+# Peerunity Official Development Repository
 
 ## What is Peerunity?
 
