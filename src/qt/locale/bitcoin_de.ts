@@ -7,22 +7,22 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
         <source>About Peerunity</source>
-        <translation type="unfinished"></translation>
+        <translation>Über Peerunity</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
         <source>Copyright © 2014 Peerunity Developers</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright © 2014 Die Peerunity-Entwickler</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
         <source>Copyright © 2011-2014 PPCoin Developers</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright © 2011-2014 Die PPcoin-Entwickler</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -33,7 +33,10 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright © 2009-2014 Die Bitcoin-Entwickler
+Dies ist experimentelle Software.
+Veröffentlicht unter der MIT/X11-Softwarelizenz, siehe beiligende Datei  license.txt oder http://www.opensource.org/licenses/mit-license.php.
+Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit (https://www.openssl.org/) entwickelt wird, sowie von Eric Young (eay@cryptsoft.com) geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
     </message>
 </context>
 <context>
@@ -46,7 +49,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dies sind Ihre Peercoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -185,111 +188,117 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Neue Passphrase wiederholen</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="34"/>
+        <location filename="../forms/askpassphrasedialog.ui" line="114"/>
+        <source>Toggle Keyboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Geben Sie die neue Passphrase für die Brieftasche ein.&lt;br&gt;Bitte benutzen Sie eine Passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="35"/>
+        <location filename="../askpassphrasedialog.cpp" line="38"/>
         <source>Encrypt wallet</source>
         <translation>Brieftasche verschlüsseln</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="38"/>
+        <location filename="../askpassphrasedialog.cpp" line="41"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Dieser Vorgang benötigt Ihre Passphrase um die Brieftasche zu entsperren.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="43"/>
+        <location filename="../askpassphrasedialog.cpp" line="46"/>
         <source>Unlock wallet</source>
         <translation>Brieftasche entsperren</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="46"/>
+        <location filename="../askpassphrasedialog.cpp" line="49"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Dieser Vorgang benötigt Ihre Passphrase um die Brieftasche zu entschlüsseln.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="51"/>
+        <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Decrypt wallet</source>
         <translation>Brieftasche entschlüsseln</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="54"/>
+        <location filename="../askpassphrasedialog.cpp" line="57"/>
         <source>Change passphrase</source>
         <translation>Passphrase ändern</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="55"/>
+        <location filename="../askpassphrasedialog.cpp" line="58"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Geben Sie die alte und die neue Passphrase der Brieftasche ein.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
+        <location filename="../askpassphrasedialog.cpp" line="106"/>
         <source>Confirm wallet encryption</source>
         <translation>Verschlüsselung der Brieftasche bestätigen</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <location filename="../askpassphrasedialog.cpp" line="160"/>
+        <location filename="../askpassphrasedialog.cpp" line="116"/>
+        <location filename="../askpassphrasedialog.cpp" line="165"/>
         <source>Wallet encrypted</source>
         <translation>Brieftasche verschlüsselt</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="208"/>
-        <location filename="../askpassphrasedialog.cpp" line="232"/>
+        <location filename="../askpassphrasedialog.cpp" line="213"/>
+        <location filename="../askpassphrasedialog.cpp" line="237"/>
         <source>Warning: The Caps Lock key is on.</source>
         <translation>Warnung: Die Feststelltaste ist aktiviert.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <location filename="../askpassphrasedialog.cpp" line="166"/>
-        <location filename="../askpassphrasedialog.cpp" line="172"/>
+        <location filename="../askpassphrasedialog.cpp" line="122"/>
+        <location filename="../askpassphrasedialog.cpp" line="129"/>
+        <location filename="../askpassphrasedialog.cpp" line="171"/>
+        <location filename="../askpassphrasedialog.cpp" line="177"/>
         <source>Wallet encryption failed</source>
         <translation>Verschlüsselung der Brieftasche fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="102"/>
+        <location filename="../askpassphrasedialog.cpp" line="107"/>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNUNG: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;ALLE IHRE PEERCOIN VERLIEREN&lt;/b&gt;!
+Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="112"/>
+        <location filename="../askpassphrasedialog.cpp" line="117"/>
         <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Peercoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peerunity wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Peercoins durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="118"/>
+        <location filename="../askpassphrasedialog.cpp" line="123"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Die Verschlüsselung der Brieftasche ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Brieftasche wurde nicht verschlüsselt.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="125"/>
-        <location filename="../askpassphrasedialog.cpp" line="173"/>
+        <location filename="../askpassphrasedialog.cpp" line="130"/>
+        <location filename="../askpassphrasedialog.cpp" line="178"/>
         <source>The supplied passphrases do not match.</source>
         <translation>Die eingegebenen Passphrasen stimmen nicht überein.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="136"/>
+        <location filename="../askpassphrasedialog.cpp" line="141"/>
         <source>Wallet unlock failed</source>
         <translation>Entsperrung der Brieftasche fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="137"/>
-        <location filename="../askpassphrasedialog.cpp" line="148"/>
-        <location filename="../askpassphrasedialog.cpp" line="167"/>
+        <location filename="../askpassphrasedialog.cpp" line="142"/>
+        <location filename="../askpassphrasedialog.cpp" line="153"/>
+        <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Die eingegebene Passphrase zum Entschlüsseln der Brieftasche war nicht korrekt.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="147"/>
+        <location filename="../askpassphrasedialog.cpp" line="152"/>
         <source>Wallet decryption failed</source>
         <translation>Entschlüsselung der Brieftasche fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="161"/>
+        <location filename="../askpassphrasedialog.cpp" line="166"/>
         <source>Wallet passphrase was succesfully changed.</source>
         <translation>Die Passphrase der Brieftasche wurde erfolgreich geändert.</translation>
     </message>
@@ -354,12 +363,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="227"/>
         <source>Sign/Verify &amp;message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht signieren / verifizieren</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="228"/>
         <source>Prove you control an address</source>
-        <translation>Beweisen Sie die Kontrolle einer Adresse</translation>
+        <translation>Beweisen Sie, dass Sie eine Adresse kontrollieren</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
@@ -374,7 +383,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
         <source>Show information about Peercoin</source>
-        <translation type="unfinished"></translation>
+        <translation>Informationen über Peercoin anzeigen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -394,7 +403,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="264"/>
         <source>&amp;Export...</source>
-        <translation>&amp;Exportieren nach...</translation>
+        <translation>E&amp;xportieren...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="265"/>
@@ -404,7 +413,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="266"/>
         <source>&amp;Encrypt Wallet</source>
-        <translation>Brieftasche &amp;verschlüsseln...</translation>
+        <translation>Brieftasche &amp;verschlüsseln</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="267"/>
@@ -414,17 +423,17 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="269"/>
         <source>&amp;Unlock Wallet for Minting Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche nur zum Prägen entsperren</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="270"/>
         <source>Unlock wallet only for minting. Sending coins will still require the passphrase.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche nur zum Prägen entsperren. Das Versenden von PPCoins wird weiterhin die Passphrase erfordern. </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="272"/>
         <source>&amp;Backup Wallet</source>
-        <translation>Brieftasche &amp;sichern...</translation>
+        <translation>Brieftasche &amp;sichern</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="273"/>
@@ -434,7 +443,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
         <source>&amp;Change Passphrase</source>
-        <translation>Passphrase &amp;ändern...</translation>
+        <translation>Passphrase &amp;ändern</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="275"/>
@@ -444,12 +453,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="276"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>Debugfenster</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="277"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"></translation>
+        <translation>Debugging- und Diagnosekonsole öffnen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="301"/>
@@ -469,7 +478,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="326"/>
         <source>Tabs toolbar</source>
-        <translation>Registerkarten-Leiste</translation>
+        <translation>Registerkartenleiste</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="338"/>
@@ -479,7 +488,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="350"/>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[Testnetz]</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="658"/>
@@ -489,42 +498,42 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
         <source>Peerunity Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Peerunity Brieftasche</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
         <source>Send coins to a Peercoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Münzen an eine Peercoin-Adresse senden</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
         <source>&amp;About Peerunity</source>
-        <translation type="unfinished"></translation>
+        <translation>Über Peerunity</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
         <source>Modify configuration options for Peerunity</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Konfiguration von Peerunity bearbeiten</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
         <source>Show/Hide &amp;Peerunity</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Peerunity anzeigen/verstecken</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
         <source>Show or hide the Peerunity window</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige oder verstecke das Peerunity Fenster</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
         <source>Peerunity client</source>
-        <translation type="unfinished"></translation>
+        <translation>Peerunity-Client</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
         <source>p-qt</source>
-        <translation type="unfinished"></translation>
+        <translation>p-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
@@ -543,14 +552,14 @@ Are you sure you wish to encrypt your wallet?</source>
         <location filename="../bitcoingui.cpp" line="533"/>
         <source>~%n block(s) remaining</source>
         <translation type="unfinished">
-            <numerusform>~%n block remaining</numerusform>
-            <numerusform>~%n blocks remaining</numerusform>
+            <numerusform>~%n Block verbleibend</numerusform>
+            <numerusform>~%n Blöcke verbleibend</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="544"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 von %2 Blöcken des Transaktionsverlaufs heruntergeladen (%3% fertig).</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="556"/>
@@ -634,7 +643,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="821"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked for block minting only&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;nur zur Blockprägung entsperrt.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="821"/>
@@ -664,12 +673,12 @@ Adresse: %4</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="891"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Fehler beim abspeichern der Sicherungskopie der Brieftasche.</translation>
+        <translation>Fehler beim versuch die Brieftaschendaten am neuen Ort zu speichern. </translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
         <source>A fatal error occured. Peerunity can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein fataler Fehler trat auf. Peerunity kann nicht mehr sicher fortfahren und wird sich beenden. </translation>
     </message>
 </context>
 <context>
@@ -677,12 +686,12 @@ Adresse: %4</translation>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="14"/>
         <source>Coin Control</source>
-        <translation type="unfinished"></translation>
+        <translation> &quot;Coin Control&quot;</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="45"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="64"/>
@@ -693,7 +702,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="77"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="125"/>
@@ -706,53 +715,53 @@ Adresse: %4</translation>
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation>123.456 BTC {0.00 ?}</translation>
+        <translation>0.00 BTC</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorität:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="205"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebühr: </translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="240"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu geringer Ausgabebetrag:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="262"/>
         <location filename="../coincontroldialog.cpp" line="572"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>nein</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="291"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abzüglich Gebühr:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="326"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="395"/>
         <source>(un)select all</source>
-        <translation type="unfinished"></translation>
+        <translation>alles (ab)wählen</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="408"/>
         <source>Tree mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Baumansicht</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="424"/>
         <source>List mode</source>
-        <translation>Listen-Modus</translation>
+        <translation>Listenansicht</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="469"/>
@@ -808,47 +817,47 @@ Adresse: %4</translation>
     <message>
         <location filename="../coincontroldialog.cpp" line="39"/>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktions-ID kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="63"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="65"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebühr kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="66"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Abzüglich Gebühr kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="67"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Byte kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="68"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorität kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="69"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu geringen Ausgabebetrag kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="70"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld kopieren</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="388"/>
         <source>highest</source>
-        <translation type="unfinished"></translation>
+        <translation>am höchsten</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="389"/>
@@ -878,12 +887,12 @@ Adresse: %4</translation>
     <message>
         <location filename="../coincontroldialog.cpp" line="397"/>
         <source>lowest</source>
-        <translation type="unfinished"></translation>
+        <translation>am niedrigsten</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="572"/>
         <source>DUST</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;Dust&quot;</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="572"/>
@@ -897,7 +906,9 @@ Adresse: %4</translation>
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 10000 Byte ist.
+Das bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.
+Kann um +/- 1 Byte pro Eingabe variieren.</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="583"/>
@@ -906,7 +917,9 @@ Adresse: %4</translation>
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktionen mit höherer Priorität haben eine größere Chance in einen Block aufgenommen zu werden.
+Diese Bezeichnung wird rot, wenn die Priorität niedriger als &quot;mittel&quot; ist.
+Das bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="584"/>
@@ -915,14 +928,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als %1 erhält.
+Das bedeutet, dass eine Gebühr von mindestens %2 erforderlich ist.
+Beträge kleiner als das 0,546-fache der niedrigsten Vermittlungsgebühr werden als &quot;Dust&quot; angezeigt.</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="585"/>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Bezeichnung wird rot, wenn das Wechselgeld weniger als %1 ist.
+Das bedeutet, dass eine Gebühr von mindestens %2 erforderlich ist.</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="622"/>
@@ -933,12 +949,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../coincontroldialog.cpp" line="679"/>
         <source>change from %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld von %1 (%2)</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="680"/>
         <source>(change)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Wechselgeld)</translation>
     </message>
 </context>
 <context>
@@ -951,27 +967,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Wählen Sie die Standard-Untereinheit, die in der Benutzeroberfläche und beim Überweisen von PPCoins angezeigt werden soll</translation>
+        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von PPCoins angezeigt werden soll.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"></translation>
+        <translation>Adressen im Transaktionsverlauf &amp;anzeigen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
         <source>Whether to show Peerunity addresses in the transaction list</source>
-        <translation type="unfinished"></translation>
+        <translation>Legt fest, ob Peerunity-Adressen im Transaktionsverlauf angezeigt werden.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
         <source>Display coin control features (experts only!)</source>
-        <translation type="unfinished"></translation>
+        <translation> &quot;Coin Control&quot;-Funktionen anzeigen (nur für Experten!)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="291"/>
         <source>Whether to show coin control features or not</source>
-        <translation type="unfinished"></translation>
+        <translation>Legt fest, ob die &quot;Coin Control&quot;-Funktionen angezeigt werden.</translation>
     </message>
 </context>
 <context>
@@ -989,7 +1005,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address book entry</source>
-        <translation>Die Bezeichnung dieses Adressbuchseintrags</translation>
+        <translation>Bezeichnung, die dem Adressbucheintrag zugeordnet ist.</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="42"/>
@@ -999,7 +1015,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/editaddressdialog.ui" line="52"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Die Adresse des Adressbucheintrags. Diese kann nur für Zahlungsadressen bearbeitet werden.</translation>
+        <translation>Adresse, die dem Adressbucheintrag zugeordnet ist. Diese kann nur bei Zahlungsadressen verändert werden.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="20"/>
@@ -1029,7 +1045,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
         <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Peercoin-Adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1072,7 +1088,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
         <source>Automatically open the Peerunity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch den Peerunity-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1107,32 +1123,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
         <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorgeschriebene Netzwerktransaktionsgebühr pro übertragenes kB. Die meisten Transaktionen sind 1 kB groß und erfordern eine Gebühr von 0.01 PPC. Hinweis: Die Transaktionsgröße kann sich je nach Anzahl der Eingangstransaktionen, die zum Erreichen des Gesamtbetrages zusammengerechnet werden,  erhöhen.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
         <source>Additional network &amp;fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zusätzliche Netwerkgebühr:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="234"/>
         <source>Detach databases at shutdown</source>
-        <translation type="unfinished"></translation>
+        <translation>Datenbanken beim Schließen trennen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="235"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datenbanken beim Schließen trennen. Dies bedeutet, dass die in ein anderes Datenverzeichnet verschoben werden können. Dies verlangsamt aber das Schließen. Die Brieftasche ist immer getrennt. </translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
         <source>&amp;Start Peerunity on window system startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte Peerunity nach Systemanmeldung</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
         <source>Automatically start Peerunity after the computer is turned on</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte Peerunity automatisch, nachdem der Computer eingeschaltet wurde. </translation>
     </message>
 </context>
 <context>
@@ -1145,7 +1161,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingtablemodel.cpp" line="203"/>
         <source>Address</source>
-        <translation type="unfinished">Adresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location filename="../mintingtablemodel.cpp" line="203"/>
@@ -1268,12 +1284,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingview.cpp" line="163"/>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished">Kommagetrennte Datei (*.csv)</translation>
+        <translation>Kommagetrennte Datei (*.csv)</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="171"/>
         <source>Address</source>
-        <translation type="unfinished">Adresse</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="172"/>
@@ -1303,12 +1319,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingview.cpp" line="180"/>
         <source>Error exporting</source>
-        <translation type="unfinished">Fehler beim Exportieren</translation>
+        <translation>Fehler beim Exportieren</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="180"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished">Konnte nicht in Datei %1 schreiben.</translation>
+        <translation>Konnte nicht in Datei %1 schreiben.</translation>
     </message>
 </context>
 <context>
@@ -1359,12 +1375,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="82"/>
         <source>Stake:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteil: </translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="102"/>
         <source>Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="138"/>
@@ -1379,7 +1395,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../overviewpage.cpp" line="109"/>
         <source>Your current stake</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr aktueller Anteil</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="114"/>
@@ -1417,7 +1433,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
         <source>PPC</source>
-        <translation type="unfinished"></translation>
+        <translation>PPC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1437,17 +1453,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../qrcodedialog.cpp" line="46"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beim Enkodieren der URI in den QR-Code ist ein Fehler aufgetreten.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="64"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultierende URI ist zu lang, bitte den Text für Bezeichnung/Nachricht kürzen.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="121"/>
         <source>Save Image...</source>
-        <translation>QR-Code abspeichern</translation>
+        <translation>Grafik &amp;speichern...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="121"/>
@@ -1460,17 +1476,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
         <source>Peercoin (PPCoin) debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>Peercoin (PPCoin) Debugfenster</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Hinweis</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="33"/>
         <source>Client name</source>
-        <translation type="unfinished"></translation>
+        <translation>Clientname</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="40"/>
@@ -1482,17 +1498,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/rpcconsole.ui" line="229"/>
         <location filename="../rpcconsole.cpp" line="338"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>k.A.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="53"/>
         <source>Client version</source>
-        <translation type="unfinished"></translation>
+        <translation>Clientversion</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="79"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="92"/>
@@ -1507,52 +1523,52 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="119"/>
         <source>On testnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Im Testnetz</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="142"/>
         <source>Block chain</source>
-        <translation type="unfinished"></translation>
+        <translation>Blockkette</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="149"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Anzahl Blöcke</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="169"/>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschätzte Gesamtanzahl Blöcke</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="189"/>
         <source>Last block time</source>
-        <translation type="unfinished"></translation>
+        <translation>Letzte Blockzeit</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="222"/>
         <source>Build date</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstellungsdatum</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="237"/>
         <source>Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konsole</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="270"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="286"/>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konsole zurücksetzen</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
         <source>Welcome to the Peerunity RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation>Willkommen in der Peerunity-RPC-Konsole. &lt;br&gt; Nutze Pfeiltaste hoch und runter, um den Verlauf durchzublättern und &lt;b&gt;Strg-L&lt;/b&gt;, um die Konsole zurückzusetzen. &lt;br&gt;  Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
     </message>
 </context>
 <context>
@@ -1572,27 +1588,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
         <source>Coin Control Features</source>
-        <translation type="unfinished"></translation>
+        <translation> &quot;Coin Control&quot;-Funktionen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="110"/>
         <source>Inputs...</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingaben...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="117"/>
         <source>automatically selected</source>
-        <translation type="unfinished"></translation>
+        <translation>automatisch ausgewählt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="136"/>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>Unzureichender Kontostand!</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="213"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="235"/>
@@ -1603,7 +1619,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="251"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="302"/>
@@ -1616,12 +1632,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation>123.456 BTC {0.00 ?}</translation>
+        <translation>0.00 BTC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorität:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="356"/>
@@ -1631,42 +1647,42 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="388"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebühr: </translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="423"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu geringer Ausgabebetrag:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="442"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>nein</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="474"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abzüglich Gebühr:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="509"/>
         <source>Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="559"/>
         <source>custom change address</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefinierte Wechselgeld-Adresse</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="665"/>
         <source>Send to multiple recipients at once</source>
-        <translation>In einer Transaktion an mehrere Empfänger auf einmal überweisen</translation>
+        <translation>An mehrere Empfänger auf einmal überweisen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="668"/>
         <source>&amp;Add recipient...</source>
-        <translation>&amp;Empfänger hinzufügen</translation>
+        <translation>&amp;Empfänger hinzufügen...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="685"/>
@@ -1701,7 +1717,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="51"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="52"/>
@@ -1711,32 +1727,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="53"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebühr kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="54"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Abzüglich Gebühr kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="55"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Byte kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="56"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorität kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu geringen Ausgabebetrag kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="58"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld kopieren</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="144"/>
@@ -1751,7 +1767,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Sind Sie sich sicher, dass Sie die folgende Überweisung ausführen möchten?&lt;br&gt;%1</translation>
+        <translation>Wollen Sie die Überweisung ausführen?&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1759,24 +1775,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation> und </translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="177"/>
-        <source>The recepient address is not valid, please recheck.</source>
-        <translation>Die Zahlungsadresse ist ungültig, bitte nochmals überprüfen.</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsdialog.cpp" line="182"/>
         <source>The amount to pay must be at least one cent (0.01).</source>
-        <translation type="unfinished"></translation>
+        <translation>Der zu zahlende Betrag muss mindestens einen Cent betragen (0.01).</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Warnung: Ungültige Peercoin Adresse</translation>
+        <translation>Warnung: Ungültige Peercoin-Adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Unbekannte Wechselgeld-Adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="477"/>
@@ -1791,7 +1802,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
         <source>Enter a Peercoin address</source>
-        <translation>Peercoin Addresse eingeben</translation>
+        <translation>Peercoin-Addresse eingeben</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="177"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="192"/>
@@ -1845,7 +1861,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
         <source>The address to send the payment to</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Zahlungsadresse der Überweisung</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
@@ -1875,7 +1891,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
         <source>Enter a Peercoin address</source>
-        <translation>Peercoin Addresse eingeben</translation>
+        <translation>Peercoin-Addresse eingeben</translation>
     </message>
 </context>
 <context>
@@ -1883,7 +1899,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaturen - eine Nachricht signieren / verifizieren</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="24"/>
@@ -1893,18 +1909,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="30"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Sie können Nachrichten mit Ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishing-Angriffen in Acht, um nicht ungewollt etwas zu signieren, dass für Sie negative Auswirkungen haben könnte.</translation>
+        <translation>Sie können Nachrichten mit Ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishingangriffen in Acht. Signieren Sie nur Nachrichten, mit denen Sie vollständig einverstanden sind.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="48"/>
         <source>The address to sign the message with</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Adresse mit der die Nachricht signiert wird</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="55"/>
         <location filename="../forms/signverifymessagedialog.ui" line="265"/>
         <source>Choose previously used address</source>
-        <translation type="unfinished"></translation>
+        <translation>Bereits verwendete Adresse auswählen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="65"/>
@@ -1930,85 +1946,85 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="104"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Signatur</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="131"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
         <source>Sign the message to prove you own this Peercoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Nachricht signieren, um den Besitz dieser Peercoin-Adresse zu beweisen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nachricht signieren</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="169"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle &quot;Nachricht signieren&quot;-Felder zurücksetzen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="172"/>
         <location filename="../forms/signverifymessagedialog.ui" line="315"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zurücksetzen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="231"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht &amp;verifizieren</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="237"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur hinein, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="258"/>
         <source>The address the message was signed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Adresse mit der die Nachricht signiert wurde</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
         <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Peercoin-Adresse signiert wurde</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nachricht verifizieren</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="312"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle &quot;Nachricht verifizieren&quot;-Felder zurücksetzen</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Auf &quot;Nachricht signieren&quot; klicken, um die Signatur zu erzeugen</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
         <source>Enter the signature of the message</source>
-        <translation type="unfinished"></translation>
+        <translation>Geben Sie die Signatur der Nachricht ein</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
         <source>Enter a Peercoin address</source>
-        <translation>Peercoin Addresse eingeben</translation>
+        <translation>Peercoin-Addresse eingeben</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
         <location filename="../signverifymessagedialog.cpp" line="195"/>
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die eingegebene Adresse ist ungültig.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2016,59 +2032,59 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="195"/>
         <location filename="../signverifymessagedialog.cpp" line="203"/>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="123"/>
         <location filename="../signverifymessagedialog.cpp" line="203"/>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die eingegebene Adresse verweist nicht auf einen Schlüssel.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="131"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Entsperrung der Brieftasche wurde abgebrochen.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="139"/>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Privater Schlüssel zur eingegebenen Adresse ist nicht verfügbar.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="151"/>
         <source>Message signing failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Signierung der Nachricht fehlgeschlagen.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="156"/>
         <source>Message signed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht signiert.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="214"/>
         <source>The signature could not be decoded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Signatur konnte nicht dekodiert werden.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="214"/>
         <location filename="../signverifymessagedialog.cpp" line="227"/>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte überprüfen Sie die Signatur und versuchen Sie es erneut.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="227"/>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Signatur entspricht nicht dem &quot;Message Digest&quot;.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="234"/>
         <source>Message verification failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifikation der Nachricht fehlgeschlagen.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="239"/>
         <source>Message verified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht verifiziert.</translation>
     </message>
 </context>
 <context>
@@ -2086,7 +2102,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="29"/>
         <source>%1/offline?</source>
-        <translation>%1/offline?</translation>
+        <translation>%1/nicht verbunden?</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="31"/>
@@ -2194,7 +2210,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
         <source>&lt;b&gt;Retained amount:&lt;/b&gt; %1 until %2 more blocks&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Einbehaltener Betrag:&lt;/b&gt; %1 bis %2 weitere Blöcke erstellt wurden &lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
@@ -2214,12 +2230,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte PPCoins müssen 120 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie generierte. {520 ?}</translation>
+        <translation>Erzeugte PPCoins müssen 520 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie erzeugte.</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
         <source>Staked coins must wait 520 blocks before they can return to balance and be spent.  When you generated this proof-of-stake block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be a valid stake.  This may occasionally happen if another node generates a proof-of-stake block within a few seconds of yours.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geprägte PPCoins müssen 520 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block prägten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie prägte.</translation>
     </message>
 </context>
 <context>
@@ -2301,7 +2317,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="310"/>
         <source>Generated but not accepted</source>
-        <translation>Generiert, jedoch nicht angenommen</translation>
+        <translation>Erzeugt, jedoch nicht angenommen</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="353"/>
@@ -2331,7 +2347,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="364"/>
         <source>Mint by stake</source>
-        <translation type="unfinished"></translation>
+        <translation>Prägen durch Anteil</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="403"/>
@@ -2367,173 +2383,173 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="56"/>
-        <location filename="../transactionview.cpp" line="72"/>
+        <location filename="../transactionview.cpp" line="55"/>
+        <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
         <translation>Alle</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="57"/>
+        <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
         <translation>Heute</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="58"/>
+        <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
         <translation>Diese Woche</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="59"/>
+        <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
         <translation>Diesen Monat</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="60"/>
+        <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
         <translation>Letzten Monat</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="61"/>
+        <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
         <translation>Dieses Jahr</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="62"/>
+        <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
         <translation>Zeitraum</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="73"/>
+        <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
         <translation>Empfangen über</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="75"/>
+        <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
         <translation>Überwiesen an</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="77"/>
+        <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
         <translation>Eigenüberweisung</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="78"/>
+        <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
         <translation>Erarbeitet</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="79"/>
+        <location filename="../transactionview.cpp" line="78"/>
         <source>Mint by stake</source>
-        <translation type="unfinished"></translation>
+        <translation>Prägen durch Anteil</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="80"/>
+        <location filename="../transactionview.cpp" line="79"/>
         <source>Other</source>
         <translation>Andere</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="86"/>
+        <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
         <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="92"/>
+        <location filename="../transactionview.cpp" line="91"/>
         <source>Min amount</source>
         <translation>Minimaler Betrag</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="126"/>
+        <location filename="../transactionview.cpp" line="125"/>
         <source>Copy address</source>
         <translation>Adresse kopieren</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="127"/>
+        <location filename="../transactionview.cpp" line="126"/>
         <source>Copy label</source>
         <translation>Bezeichnung kopieren</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="128"/>
+        <location filename="../transactionview.cpp" line="127"/>
         <source>Copy amount</source>
         <translation>Betrag kopieren</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="129"/>
+        <location filename="../transactionview.cpp" line="128"/>
         <source>Edit label</source>
         <translation>Bezeichnung bearbeiten</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="130"/>
+        <location filename="../transactionview.cpp" line="129"/>
         <source>Show details...</source>
-        <translation>Transaktionsdetails anzeigen</translation>
+        <translation>Transaktionsdetails anzeigen...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="131"/>
+        <location filename="../transactionview.cpp" line="130"/>
         <source>Clear orphans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="274"/>
+        <location filename="../transactionview.cpp" line="273"/>
         <source>Export Transaction Data</source>
         <translation>Transaktionen exportieren</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="275"/>
+        <location filename="../transactionview.cpp" line="274"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommagetrennte Datei (*.csv)</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="283"/>
+        <location filename="../transactionview.cpp" line="282"/>
         <source>Confirmed</source>
         <translation>Bestätigt</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="284"/>
+        <location filename="../transactionview.cpp" line="283"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="285"/>
+        <location filename="../transactionview.cpp" line="284"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="286"/>
+        <location filename="../transactionview.cpp" line="285"/>
         <source>Label</source>
         <translation>Bezeichnung</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="287"/>
+        <location filename="../transactionview.cpp" line="286"/>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="288"/>
+        <location filename="../transactionview.cpp" line="287"/>
         <source>Amount</source>
         <translation>Betrag</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="289"/>
+        <location filename="../transactionview.cpp" line="288"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="293"/>
+        <location filename="../transactionview.cpp" line="292"/>
         <source>Error exporting</source>
         <translation>Fehler beim Exportieren</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="293"/>
+        <location filename="../transactionview.cpp" line="292"/>
         <source>Could not write to file %1.</source>
         <translation>Konnte nicht in Datei %1 schreiben.</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="401"/>
+        <location filename="../transactionview.cpp" line="400"/>
         <source>Range:</source>
         <translation>Zeitraum:</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="409"/>
+        <location filename="../transactionview.cpp" line="408"/>
         <source>to</source>
         <translation>bis</translation>
     </message>
@@ -2551,7 +2567,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
         <source>Warning: Disk space is low  </source>
-        <translation>Warnung: Festplattenplatz wird knapp</translation>
+        <translation>Warnung: Zu wenig freier Speicherplatz auf dem Datenträger!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
@@ -2561,17 +2577,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
         <source>Unable to bind to port %d on this computer.  Peerunity is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann Port %d auf diesem Computer nicht binden. Peerunity läuft wahrscheinlich bereits. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
         <source>Peerunity version</source>
-        <translation type="unfinished"></translation>
+        <translation>Peerunity Version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
         <source>Send command to -server or peerunityd</source>
-        <translation type="unfinished"></translation>
+        <translation>Sende Befehl an -server oder peerunityd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2591,7 +2607,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
         <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurations-Datei angeben (Standard: ppcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
@@ -2631,7 +2647,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe des Datenbankprotokolls in Megabyte festlegen (Standard: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="27"/>
@@ -2646,22 +2662,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
         <source>Allow DNS lookups for addnode and connect</source>
-        <translation>Erlaube DNS Namensauflösung für addnode und connect</translation>
+        <translation>Erlaube DNS-Abfragen für -addnode und -connect</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Listen for connections on &lt;port&gt; (default: 9901 or testnet: 9903)</source>
-        <translation>Verbindungen erwarten an &lt;port&gt; (Standard: 8333 oder test-Netzwerk: 18333) {9901 ?} {9903)?}</translation>
+        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 9901 oder Testnetz: 9903)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Maximal &lt;n&gt; Verbindungen zu Peers aufrechterhalten (Standard: 125)</translation>
+        <translation>Maximal &lt;n&gt; Verbindungen zu Gegenstellen aufrechterhalten (Standard: 125)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="32"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dem angegebenen Knoten verbinden und versuchen die Verbindung aufrecht zu erhalten</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="33"/>
@@ -2671,22 +2687,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="34"/>
         <source>Find peers using internet relay chat (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegenstellen via IRC finden (Standard: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="35"/>
         <source>Accept connections from outside (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingehende Verbindungen annehmen (Standard: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="36"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Sprache auswählen, z.B. &quot;de_DE&quot; (Standard: Systemsprache)</translation>
+        <translation>Sprache festlegen, z.B. &quot;de_DE&quot; (Standard: Systemstandard)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="37"/>
         <source>Find peers using DNS lookup (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegenstellen via DNS-Abfrage finden (Standard: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="38"/>
@@ -2711,17 +2727,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
         <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="45"/>
         <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebühr pro kB, die gesendeten Transaktionen hinzugefügt wird</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
@@ -2731,7 +2747,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Als Hintergrunddienst starten und Befehle akzeptieren</translation>
+        <translation>Als Hintergrunddienst ausführen und Befehle annehmen</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="49"/>
@@ -2771,7 +2787,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9902)</source>
-        <translation>JSON-RPC Verbindungen erwarten an &lt;port&gt; (Standard: 8332) {9902)?}</translation>
+        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 9902)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
@@ -2786,12 +2802,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"></translation>
+        <translation>Befehl ausführen wenn der beste Block wechselt (%s im Befehl wird durch den Hash des Blocks ersetzt)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
         <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"></translation>
+        <translation>Wallet auf das neueste Format aktualisieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="63"/>
@@ -2801,28 +2817,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="64"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Blockkette erneut nach fehlenden Transaktionen der Brieftasche durchsuchen</translation>
+        <translation>Blockkette erneut nach fehlenden Brieftaschen-Transaktionen durchsuchen</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation type="unfinished"></translation>
+        <translation>Wieviele Blöcke beim Starten geprüft werden sollen (Standard: 2500, 0 = alle)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Legt fest, wie gründlich die Blockverifikation von -checkblocks ist (0-6, Standard: 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
         <source>
 SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"></translation>
+        <translation>SSL-Optionen (siehe Bitcoin-Wiki für SSL-Einrichtung)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="70"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>OpenSSL (https) für JSON-RPC Verbindungen benutzen</translation>
+        <translation>OpenSSL (https) für JSON-RPC-Verbindungen verwenden</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2847,12 +2863,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
         <source>Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzung:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
         <source>Cannot obtain a lock on data directory %s.  Peerunity is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datenverzeichnis %s kann nicht gesperrt werden, da Peerunity wahrscheinlich bereits gestartet wurde.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
@@ -2862,12 +2878,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Peerunity</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von Peerunity</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
         <source>Wallet needed to be rewritten: restart Peerunity to complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche musste neu geschrieben werden: starten Sie Peerunity zur Fertigstellung neu</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2884,7 +2900,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Peerunity ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
@@ -2909,7 +2925,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
         <source>Loading wallet...</source>
-        <translation>Lade Geldbörse...</translation>
+        <translation>Lade Brieftasche...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
@@ -2924,17 +2940,17 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="91"/>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Brieftasche kann nicht auf eine ältere Version herabgestuft werden</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="92"/>
         <source>Cannot initialize keypool</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann Schlüsselpool nicht initialisieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="93"/>
         <source>Cannot write default address</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardadresse kann nicht geschrieben werden</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
@@ -2954,7 +2970,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="97"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;</source>
-        <translation>Ungültige Angabe für -paytxfee=&lt;Betrag&gt;</translation>
+        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
@@ -2969,34 +2985,36 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="102"/>
         <source>To use the %s option</source>
-        <translation type="unfinished"></translation>
+        <translation>Zur Nutzung der %s-Option</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="112"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="113"/>
         <source>An error occured while setting up the RPC port %i for listening: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim setzen des RPC-Ports %i um %s abzuhören. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="114"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie müssen den Wert rpcpassword=&lt;Passwort&gt; in dieser Konfigurationsdatei angeben:
+%s
+Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="122"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Brieftasche gesperrt, Transaktion kann nicht erstellt werden!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="123"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Diese Transaktion benötigt aufgrund Ihres Betrags, Ihrer Komplexität oder der Nutzung erst kürzlich erhaltener Zahlungen eine Transaktionsgebühr in Höhe von mindestens %s!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -3016,12 +3034,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
         <source>Invalid amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültiger Betrag</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="133"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished"></translation>
+        <translation>Unzureichender Kontostand!</translation>
     </message>
 </context>
 </TS>

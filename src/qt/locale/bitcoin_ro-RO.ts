@@ -185,111 +185,116 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Repetaţi noua frază de acces</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="34"/>
+        <location filename="../forms/askpassphrasedialog.ui" line="114"/>
+        <source>Toggle Keyboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi &lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="35"/>
+        <location filename="../askpassphrasedialog.cpp" line="38"/>
         <source>Encrypt wallet</source>
         <translation>Criptează portofelul</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="38"/>
+        <location filename="../askpassphrasedialog.cpp" line="41"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Aceasta operație are nevoie de un portofel deblocat.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="43"/>
+        <location filename="../askpassphrasedialog.cpp" line="46"/>
         <source>Unlock wallet</source>
         <translation>Deblochează portofelul</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="46"/>
+        <location filename="../askpassphrasedialog.cpp" line="49"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Această operaţiune necesită parola pentru decriptarea portofelului electronic.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="51"/>
+        <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Decrypt wallet</source>
         <translation>Decriptează portofelul.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="54"/>
+        <location filename="../askpassphrasedialog.cpp" line="57"/>
         <source>Change passphrase</source>
         <translation>Schimbă fraza de acces</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="55"/>
+        <location filename="../askpassphrasedialog.cpp" line="58"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Introduceţi vechea parola a portofelului eletronic şi apoi pe cea nouă.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
+        <location filename="../askpassphrasedialog.cpp" line="106"/>
         <source>Confirm wallet encryption</source>
         <translation>Confirmă criptarea portofelului.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <location filename="../askpassphrasedialog.cpp" line="160"/>
+        <location filename="../askpassphrasedialog.cpp" line="116"/>
+        <location filename="../askpassphrasedialog.cpp" line="165"/>
         <source>Wallet encrypted</source>
         <translation>Portofel criptat </translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="208"/>
-        <location filename="../askpassphrasedialog.cpp" line="232"/>
+        <location filename="../askpassphrasedialog.cpp" line="213"/>
+        <location filename="../askpassphrasedialog.cpp" line="237"/>
         <source>Warning: The Caps Lock key is on.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <location filename="../askpassphrasedialog.cpp" line="166"/>
-        <location filename="../askpassphrasedialog.cpp" line="172"/>
+        <location filename="../askpassphrasedialog.cpp" line="122"/>
+        <location filename="../askpassphrasedialog.cpp" line="129"/>
+        <location filename="../askpassphrasedialog.cpp" line="171"/>
+        <location filename="../askpassphrasedialog.cpp" line="177"/>
         <source>Wallet encryption failed</source>
         <translation>Criptarea portofelului a eșuat.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="102"/>
+        <location filename="../askpassphrasedialog.cpp" line="107"/>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="112"/>
+        <location filename="../askpassphrasedialog.cpp" line="117"/>
         <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Peercoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="118"/>
+        <location filename="../askpassphrasedialog.cpp" line="123"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Criptarea portofelului a eșuat din cauza unei erori interne. Portofelul tău nu a fost criptat.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="125"/>
-        <location filename="../askpassphrasedialog.cpp" line="173"/>
+        <location filename="../askpassphrasedialog.cpp" line="130"/>
+        <location filename="../askpassphrasedialog.cpp" line="178"/>
         <source>The supplied passphrases do not match.</source>
         <translation>Fraza de acces introdusă nu se potrivește.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="136"/>
+        <location filename="../askpassphrasedialog.cpp" line="141"/>
         <source>Wallet unlock failed</source>
         <translation>Deblocarea portofelului electronic a eşuat.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="137"/>
-        <location filename="../askpassphrasedialog.cpp" line="148"/>
-        <location filename="../askpassphrasedialog.cpp" line="167"/>
+        <location filename="../askpassphrasedialog.cpp" line="142"/>
+        <location filename="../askpassphrasedialog.cpp" line="153"/>
+        <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Parola introdusă pentru decriptarea portofelului electronic a fost incorectă.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="147"/>
+        <location filename="../askpassphrasedialog.cpp" line="152"/>
         <source>Wallet decryption failed</source>
         <translation>Decriptarea portofelului electronic a eşuat.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="161"/>
+        <location filename="../askpassphrasedialog.cpp" line="166"/>
         <source>Wallet passphrase was succesfully changed.</source>
         <translation>Parola portofelului electronic a fost schimbată.</translation>
     </message>
@@ -1148,7 +1153,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingtablemodel.cpp" line="203"/>
         <source>Address</source>
-        <translation type="unfinished">Adresă</translation>
+        <translation>Adresă</translation>
     </message>
     <message>
         <location filename="../mintingtablemodel.cpp" line="203"/>
@@ -1271,12 +1276,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingview.cpp" line="163"/>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished">Fişier text cu valori separate prin virgulă (*.csv)</translation>
+        <translation>Fişier text cu valori separate prin virgulă (*.csv)</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="171"/>
         <source>Address</source>
-        <translation type="unfinished">Adresă</translation>
+        <translation>Adresă</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="172"/>
@@ -1306,12 +1311,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../mintingview.cpp" line="180"/>
         <source>Error exporting</source>
-        <translation type="unfinished">Eroare în timpul exportului</translation>
+        <translation>Eroare în timpul exportului</translation>
     </message>
     <message>
         <location filename="../mintingview.cpp" line="180"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished">Fisierul %1 nu a putut fi accesat pentru scriere.</translation>
+        <translation>Fisierul %1 nu a putut fi accesat pentru scriere.</translation>
     </message>
 </context>
 <context>
@@ -1762,11 +1767,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation> şi </translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="177"/>
-        <source>The recepient address is not valid, please recheck.</source>
-        <translation>Adresa destinatarului nu este validă, vă rugăm să o verificaţi.</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsdialog.cpp" line="182"/>
         <source>The amount to pay must be at least one cent (0.01).</source>
         <translation type="unfinished"></translation>
@@ -1794,6 +1794,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
         <source>Enter a Peercoin address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="177"/>
+        <source>The recipient address is not valid, please recheck.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2372,173 +2377,173 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="56"/>
-        <location filename="../transactionview.cpp" line="72"/>
+        <location filename="../transactionview.cpp" line="55"/>
+        <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
         <translation>Toate</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="57"/>
+        <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
         <translation>Astăzi</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="58"/>
+        <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
         <translation>Săptămâna aceasta</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="59"/>
+        <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
         <translation>Luna aceasta</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="60"/>
+        <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
         <translation>Luna trecută</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="61"/>
+        <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
         <translation>Anul acesta</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="62"/>
+        <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
         <translation>Între...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="73"/>
+        <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
         <translation>Recepţionat cu...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="75"/>
+        <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
         <translation>Trimis către</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="77"/>
+        <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
         <translation>Către propriul cont</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="78"/>
+        <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
         <translation>Produs</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="79"/>
+        <location filename="../transactionview.cpp" line="78"/>
         <source>Mint by stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="80"/>
+        <location filename="../transactionview.cpp" line="79"/>
         <source>Other</source>
         <translation>Altele</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="86"/>
+        <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
         <translation>Introduceţi adresa sau eticheta pentru căutare</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="92"/>
+        <location filename="../transactionview.cpp" line="91"/>
         <source>Min amount</source>
         <translation>Cantitatea produsă</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="126"/>
+        <location filename="../transactionview.cpp" line="125"/>
         <source>Copy address</source>
         <translation>Copiază adresa</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="127"/>
+        <location filename="../transactionview.cpp" line="126"/>
         <source>Copy label</source>
         <translation>Copiază eticheta</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="128"/>
+        <location filename="../transactionview.cpp" line="127"/>
         <source>Copy amount</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="129"/>
+        <location filename="../transactionview.cpp" line="128"/>
         <source>Edit label</source>
         <translation>Editează eticheta</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="130"/>
+        <location filename="../transactionview.cpp" line="129"/>
         <source>Show details...</source>
         <translation>Afişează detalii...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="131"/>
+        <location filename="../transactionview.cpp" line="130"/>
         <source>Clear orphans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="274"/>
+        <location filename="../transactionview.cpp" line="273"/>
         <source>Export Transaction Data</source>
         <translation>Exportă tranzacţiile</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="275"/>
+        <location filename="../transactionview.cpp" line="274"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Fişier text cu valori separate prin virgulă (*.csv)</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="283"/>
+        <location filename="../transactionview.cpp" line="282"/>
         <source>Confirmed</source>
         <translation>Confirmat</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="284"/>
+        <location filename="../transactionview.cpp" line="283"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="285"/>
+        <location filename="../transactionview.cpp" line="284"/>
         <source>Type</source>
         <translation>Tipul</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="286"/>
+        <location filename="../transactionview.cpp" line="285"/>
         <source>Label</source>
         <translation>Etichetă</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="287"/>
+        <location filename="../transactionview.cpp" line="286"/>
         <source>Address</source>
         <translation>Adresă</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="288"/>
+        <location filename="../transactionview.cpp" line="287"/>
         <source>Amount</source>
         <translation>Sumă</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="289"/>
+        <location filename="../transactionview.cpp" line="288"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="293"/>
+        <location filename="../transactionview.cpp" line="292"/>
         <source>Error exporting</source>
         <translation>Eroare în timpul exportului</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="293"/>
+        <location filename="../transactionview.cpp" line="292"/>
         <source>Could not write to file %1.</source>
         <translation>Fisierul %1 nu a putut fi accesat pentru scriere.</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="401"/>
+        <location filename="../transactionview.cpp" line="400"/>
         <source>Range:</source>
         <translation>Interval:</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="409"/>
+        <location filename="../transactionview.cpp" line="408"/>
         <source>to</source>
         <translation>către</translation>
     </message>
