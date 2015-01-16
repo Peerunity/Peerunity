@@ -33,7 +33,7 @@ public:
         QRect mainRect = option.rect;
         QRect decorationRect(mainRect.topLeft(), QSize(DECORATION_SIZE, DECORATION_SIZE));
         int xspace = DECORATION_SIZE + 8;
-        int ypad = 6;
+        int ypad = 12;
         int halfheight = (mainRect.height() - 2*ypad)/2;
         QRect amountRect(mainRect.left() + xspace, mainRect.top()+ypad, mainRect.width() - xspace, halfheight);
         QRect addressRect(mainRect.left() + xspace, mainRect.top()+ypad+halfheight, mainRect.width() - xspace, halfheight);
@@ -45,12 +45,15 @@ public:
         bool confirmed = index.data(TransactionTableModel::ConfirmedRole).toBool();
         QVariant value = index.data(Qt::ForegroundRole);
         QColor foreground = option.palette.color(QPalette::Text);
+        QFont font = QFont();
+        font.setPixelSize(20);
         if(qVariantCanConvert<QColor>(value))
         {
             foreground = qvariant_cast<QColor>(value);
         }
 
         painter->setPen(foreground);
+        painter->setFont(font);
         painter->drawText(addressRect, Qt::AlignLeft|Qt::AlignVCenter, address);
 
         if(amount < 0)
@@ -63,9 +66,11 @@ public:
         }
         else
         {
-            foreground = option.palette.color(QPalette::Text);
+            foreground = COLOR_POSITIVE;
         }
         painter->setPen(foreground);
+        font.setPixelSize(14);
+        painter->setFont(font);
         QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true);
         if(!confirmed)
         {
@@ -73,7 +78,7 @@ public:
         }
         painter->drawText(amountRect, Qt::AlignRight|Qt::AlignVCenter, amountText);
 
-        painter->setPen(option.palette.color(QPalette::Text));
+        painter->setPen(COLOR_POSITIVE);
         painter->drawText(amountRect, Qt::AlignLeft|Qt::AlignVCenter, GUIUtil::dateTimeStr(date));
 
         painter->restore();
@@ -100,17 +105,17 @@ OverviewPage::OverviewPage(QWidget *parent) :
     ui->setupUi(this);
 
     // Balance: <balance>
-    ui->labelBalance->setFont(QFont("Monospace", -1, QFont::Bold));
+    //ui->labelBalance->setFont(QFont("Monospace", -1, QFont::Bold));
     ui->labelBalance->setToolTip(tr("Your current balance"));
     ui->labelBalance->setTextInteractionFlags(Qt::TextSelectableByMouse|Qt::TextSelectableByKeyboard);
 
     // ppcoin: stake: <stake>
-    ui->labelStake->setFont(QFont("Monospace", -1, QFont::Bold));
+    //ui->labelStake->setFont(QFont("Monospace", -1, QFont::Bold));
     ui->labelStake->setToolTip(tr("Your current stake"));
     ui->labelStake->setTextInteractionFlags(Qt::TextSelectableByMouse|Qt::TextSelectableByKeyboard);
 
     // Unconfirmed balance: <balance>
-    ui->labelUnconfirmed->setFont(QFont("Monospace", -1, QFont::Bold));
+    //ui->labelUnconfirmed->setFont(QFont("Monospace", -1, QFont::Bold));
     ui->labelUnconfirmed->setToolTip(tr("Total of transactions that have yet to be confirmed, and do not yet count toward the current balance"));
     ui->labelUnconfirmed->setTextInteractionFlags(Qt::TextSelectableByMouse|Qt::TextSelectableByKeyboard);
 
