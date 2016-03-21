@@ -17,7 +17,7 @@
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
-      <widget class="QFrame" name="frame">
+      <widget class="QFrame" name="frameOverview">
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
@@ -32,66 +32,88 @@
          <number>12</number>
         </property>
         <property name="verticalSpacing">
-         <number>12</number>
+         <number>0</number>
         </property>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item row="3" column="0">
+         <widget class="QLabel" name="titleBalance">
           <property name="text">
-           <string>Balance:</string>
+           <string>BALANCE:</string>
           </property>
          </widget>
         </item>
-        <item row="2" column="1">
+        <item row="4" column="0">
          <widget class="QLabel" name="labelBalance">
           <property name="text">
            <string notr="true">0 BTC</string>
           </property>
          </widget>
         </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="label_2">
+        <item row="3" column="1">
+         <widget class="QLabel" name="titleStake">
           <property name="text">
-           <string>Number of transactions:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QLabel" name="labelNumTransactions">
-          <property name="text">
-           <string>0</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>Unconfirmed:</string>
+           <string>STAKE:</string>
           </property>
          </widget>
         </item>
         <item row="4" column="1">
-         <widget class="QLabel" name="labelUnconfirmed">
-          <property name="text">
-           <string notr="true">0 BTC</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_6">
-          <property name="text">
-           <string>Stake:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
          <widget class="QLabel" name="labelStake">
           <property name="text">
            <string notr="true">0 BTC</string>
           </property>
          </widget>
         </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_5">
+        <item row="5" column="0">
+         <widget class="QLabel" name="titleUnconfirmed">
+          <property name="text">
+           <string>UNCONFIRMED:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="labelUnconfirmed">
+          <property name="text">
+           <string notr="true">0 BTC</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="titleNumTransactions">
+          <property name="text">
+           <string>TRANSACTIONS:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="labelNumTransactions">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="titleWallet">
           <property name="font">
            <font>
             <pointsize>11</pointsize>
@@ -100,25 +122,12 @@
            </font>
           </property>
           <property name="text">
-           <string>Wallet</string>
+           <string>Wallet:</string>
           </property>
          </widget>
         </item>
        </layout>
       </widget>
-     </item>
-     <item>
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
      </item>
     </layout>
    </item>
@@ -133,10 +142,16 @@
         <enum>QFrame::Raised</enum>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
         <item>
-         <widget class="QLabel" name="label_4">
+         <widget class="QLabel" name="titleTx">
           <property name="text">
-           <string>&lt;b&gt;Recent transactions&lt;/b&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Recent Transactions:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
         </item>
