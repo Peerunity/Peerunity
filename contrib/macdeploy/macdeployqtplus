@@ -763,8 +763,8 @@ if config.dmg is not None:
                 items_positions.append(itemscript.substitute(params))
 
         params = {
-            "disk" : "PPcoin-Qt",
-            "window_bounds" : "300,300,800,620",
+            "disk" : "Peerunity",
+            "window_bounds" : "300,300,676,580",
             "icon_size" : "96",
             "background_commands" : "",
             "items_positions" : "\n                   ".join(items_positions)
