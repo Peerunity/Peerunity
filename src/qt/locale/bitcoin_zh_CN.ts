@@ -16,8 +16,8 @@
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Peerunity Developers</source>
-        <translation>版权归Peerunity开发者所有 © 2014 Peerunity Developers</translation>
+        <source>Copyright © 2014-2016 Peerunity Developers</source>
+        <translation>版权归Peerunity开发者所有 © 2014-2016 Peerunity Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
