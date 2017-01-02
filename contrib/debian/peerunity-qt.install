@@ -1,0 +1,6 @@
+debian/bin/peercoin-qt usr/bin
+peercoin-qt usr/lib/peercoin
+share/pixmaps/peerunity32.xpm usr/share/pixmaps
+share/pixmaps/peerunity80.xpm usr/share/pixmaps
+debian/peerunity-qt.desktop usr/share/applications
+debian/peerunity-qt.protocol usr/share/kde4/services/
