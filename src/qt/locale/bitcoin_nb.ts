@@ -16,8 +16,8 @@
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Peerunity Developers</source>
-        <translation>Copyright © 2014 Peerunity Utviklerne</translation>
+        <source>Copyright © 2014-2017 Peerunity Developers</source>
+        <translation>Copyright © 2014-2017 Peerunity Utviklerne</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
