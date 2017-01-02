@@ -110,7 +110,7 @@
      <item>
       <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>Copyright © 2014 Peerunity Developers</string>
+        <string>Copyright © 2014-2017 Peerunity Developers</string>
        </property>
       </widget>
      </item>
